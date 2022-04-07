@@ -1,0 +1,33 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20220202)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.5725227 Released 2020-11-01
+Analyzed List:	Brain_CSF_positive.txt (Homo sapiens)
+Reference List:	Brain_all.txt (Homo sapiens)
+Test Type:	FISHER
+Correction:	FDR
+GO molecular function complete	Brain_all.txt - REFLIST (2434)	Brain_CSF_positive.txt (961)	Brain_CSF_positive.txt (expected)	Brain_CSF_positive.txt (over/under)	Brain_CSF_positive.txt (fold Enrichment)	Brain_CSF_positive.txt (raw P-value)	Brain_CSF_positive.txt (FDR)
+cell adhesion molecule binding (GO:0050839)	68	54	26.85	+	2.01	1.33E-04	1.17E-02
+calcium ion binding (GO:0005509)	173	127	68.30	+	1.86	6.12E-08	7.66E-06
+signaling receptor binding (GO:0005102)	261	150	103.05	+	1.46	1.14E-04	1.05E-02
+organic cyclic compound binding (GO:0097159)	566	152	223.47	-	.68	1.18E-06	1.37E-04
+heterocyclic compound binding (GO:1901363)	554	148	218.73	-	.68	1.22E-06	1.33E-04
+nucleic acid binding (GO:0003676)	300	51	118.45	-	.43	1.86E-10	2.51E-08
+DNA binding (GO:0003677)	232	25	91.60	-	.27	7.29E-14	1.06E-11
+sequence-specific DNA binding (GO:0043565)	204	15	80.54	-	.19	4.28E-16	8.32E-14
+chromatin binding (GO:0003682)	46	3	18.16	-	.17	1.68E-04	1.40E-02
+transcription regulator activity (GO:0140110)	215	14	84.89	-	.16	3.72E-18	6.51E-15
+double-stranded DNA binding (GO:0003690)	198	12	78.18	-	.15	2.19E-17	6.39E-15
+transcription cis-regulatory region binding (GO:0000976)	188	11	74.23	-	.15	1.04E-16	2.60E-14
+transcription regulatory region nucleic acid binding (GO:0001067)	188	11	74.23	-	.15	1.04E-16	2.28E-14
+DNA-binding transcription factor activity (GO:0003700)	195	11	76.99	-	.14	1.01E-17	4.43E-15
+sequence-specific double-stranded DNA binding (GO:1990837)	196	11	77.39	-	.14	1.04E-17	3.63E-15
+DNA-binding transcription factor activity, RNA polymerase II-specific (GO:0000981)	192	10	75.81	-	.13	4.45E-18	3.89E-15
+RNA polymerase II transcription regulatory region sequence-specific DNA binding (GO:0000977)	185	9	73.04	-	.12	7.80E-18	4.55E-15
+DNA-binding transcription activator activity, RNA polymerase II-specific (GO:0001228)	63	3	24.87	-	.12	1.25E-06	1.29E-04
+DNA-binding transcription activator activity (GO:0001216)	63	3	24.87	-	.12	1.25E-06	1.21E-04
+RNA polymerase II cis-regulatory region sequence-specific DNA binding (GO:0000978)	154	7	60.80	-	.12	2.49E-15	3.97E-13
+cis-regulatory region sequence-specific DNA binding (GO:0000987)	155	7	61.20	-	.11	1.55E-15	2.71E-13

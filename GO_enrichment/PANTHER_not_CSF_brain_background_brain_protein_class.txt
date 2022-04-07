@@ -1,0 +1,16 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20220202)
+Annotation Version and Release Date:	PANTHER version 17.0 Released 2022-02-22
+Analyzed List:	Brain_CSF_negative.txt (Homo sapiens)
+Reference List:	Brain_all.txt (Homo sapiens)
+Test Type:	FISHER
+Correction:	FDR
+PANTHER Protein Class	Brain_all.txt - REFLIST (2434)	Brain_CSF_negative.txt (1473)	Brain_CSF_negative.txt (expected)	Brain_CSF_negative.txt (over/under)	Brain_CSF_negative.txt (fold Enrichment)	Brain_CSF_negative.txt (raw P-value)	Brain_CSF_negative.txt (FDR)
+DNA-binding transcription factor (PC00218)	180	170	108.93	+	1.56	1.40E-05	5.55E-04
+gene-specific transcriptional regulator (PC00264)	195	184	118.01	+	1.56	5.95E-06	3.15E-04
+cell adhesion molecule (PC00069)	92	7	55.68	-	.13	2.18E-12	3.47E-10
+cadherin (PC00057)	50	1	30.26	-	.03	1.31E-09	1.04E-07

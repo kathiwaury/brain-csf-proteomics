@@ -1,0 +1,92 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20220202)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.5725227 Released 2020-11-01
+Analyzed List:	Brain_CSF_positive.txt (Homo sapiens)
+Reference List:	Brain_all.txt (Homo sapiens)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Brain_all.txt - REFLIST (2434)	Brain_CSF_positive.txt (961)	Brain_CSF_positive.txt (expected)	Brain_CSF_positive.txt (over/under)	Brain_CSF_positive.txt (fold Enrichment)	Brain_CSF_positive.txt (raw P-value)	Brain_CSF_positive.txt (FDR)
+homophilic cell adhesion via plasma membrane adhesion molecules (GO:0007156)	68	66	26.85	+	2.46	2.15E-07	9.03E-05
+cell-cell adhesion via plasma-membrane adhesion molecules (GO:0098742)	99	88	39.09	+	2.25	2.27E-08	1.30E-05
+cell-cell adhesion (GO:0098609)	147	123	58.04	+	2.12	3.50E-10	2.15E-07
+cell adhesion (GO:0007155)	213	171	84.10	+	2.03	7.03E-13	2.80E-09
+biological adhesion (GO:0022610)	213	171	84.10	+	2.03	7.03E-13	1.87E-09
+synapse organization (GO:0050808)	128	93	50.54	+	1.84	6.35E-06	1.69E-03
+cell junction organization (GO:0034330)	157	110	61.99	+	1.77	2.58E-06	8.59E-04
+axon development (GO:0061564)	148	103	58.43	+	1.76	7.76E-06	1.67E-03
+axonogenesis (GO:0007409)	132	90	52.12	+	1.73	5.54E-05	6.41E-03
+negative regulation of cellular component organization (GO:0051129)	126	85	49.75	+	1.71	1.05E-04	1.16E-02
+export from cell (GO:0140352)	116	77	45.80	+	1.68	3.78E-04	3.77E-02
+regulation of neuron projection development (GO:0010975)	154	102	60.80	+	1.68	3.61E-05	4.64E-03
+cell morphogenesis involved in differentiation (GO:0000904)	162	107	63.96	+	1.67	2.86E-05	4.14E-03
+cell morphogenesis involved in neuron differentiation (GO:0048667)	153	101	60.41	+	1.67	4.60E-05	5.55E-03
+cellular component morphogenesis (GO:0032989)	182	120	71.86	+	1.67	8.94E-06	1.78E-03
+regulation of plasma membrane bounded cell projection organization (GO:0120035)	183	120	72.25	+	1.66	9.36E-06	1.82E-03
+regulation of cell projection organization (GO:0031344)	187	122	73.83	+	1.65	8.48E-06	1.78E-03
+cell part morphogenesis (GO:0032990)	175	114	69.09	+	1.65	2.11E-05	3.50E-03
+cell projection morphogenesis (GO:0048858)	175	114	69.09	+	1.65	2.11E-05	3.43E-03
+neuron projection morphogenesis (GO:0048812)	174	113	68.70	+	1.64	2.69E-05	4.04E-03
+plasma membrane bounded cell projection morphogenesis (GO:0120039)	174	113	68.70	+	1.64	2.69E-05	3.97E-03
+cell morphogenesis (GO:0000902)	203	131	80.15	+	1.63	6.79E-06	1.75E-03
+neuron projection development (GO:0031175)	227	145	89.62	+	1.62	2.43E-06	8.82E-04
+regulation of cellular component biogenesis (GO:0044087)	164	102	64.75	+	1.58	2.20E-04	2.40E-02
+modulation of chemical synaptic transmission (GO:0050804)	221	135	87.26	+	1.55	3.79E-05	4.80E-03
+regulation of trans-synaptic signaling (GO:0099177)	221	135	87.26	+	1.55	3.79E-05	4.72E-03
+regulation of anatomical structure morphogenesis (GO:0022603)	174	106	68.70	+	1.54	3.06E-04	3.21E-02
+neuron development (GO:0048666)	279	166	110.16	+	1.51	1.01E-05	1.92E-03
+regulation of cellular component organization (GO:0051128)	396	233	156.35	+	1.49	1.42E-07	6.28E-05
+plasma membrane bounded cell projection organization (GO:0120036)	293	162	115.68	+	1.40	2.72E-04	2.90E-02
+cell projection organization (GO:0030030)	301	165	118.84	+	1.39	3.16E-04	3.27E-02
+cell development (GO:0048468)	367	201	144.90	+	1.39	5.42E-05	6.35E-03
+neuron differentiation (GO:0030182)	345	186	136.21	+	1.37	2.37E-04	2.55E-02
+generation of neurons (GO:0048699)	413	222	163.06	+	1.36	4.91E-05	5.84E-03
+neurogenesis (GO:0022008)	440	236	173.72	+	1.36	2.66E-05	4.07E-03
+cellular component organization (GO:0016043)	715	375	282.30	+	1.33	8.62E-08	4.58E-05
+cellular component organization or biogenesis (GO:0071840)	717	376	283.09	+	1.33	8.77E-08	4.37E-05
+nervous system development (GO:0007399)	657	343	259.40	+	1.32	7.87E-07	2.99E-04
+regulation of biological quality (GO:0065008)	677	339	267.30	+	1.27	2.60E-05	4.06E-03
+system development (GO:0048731)	805	391	317.83	+	1.23	3.33E-05	4.35E-03
+multicellular organism development (GO:0007275)	843	407	332.84	+	1.22	3.32E-05	4.41E-03
+anatomical structure development (GO:0048856)	884	420	349.02	+	1.20	7.58E-05	8.51E-03
+developmental process (GO:0032502)	933	441	368.37	+	1.20	6.33E-05	7.21E-03
+multicellular organismal process (GO:0032501)	1094	498	431.94	+	1.15	3.31E-04	3.34E-02
+cellular process (GO:0009987)	1927	821	760.82	+	1.08	2.36E-05	3.77E-03
+regulation of macromolecule metabolic process (GO:0060255)	612	186	241.63	-	.77	3.22E-04	3.29E-02
+regulation of metabolic process (GO:0019222)	677	201	267.30	-	.75	2.93E-05	4.18E-03
+regulation of cellular metabolic process (GO:0031323)	607	171	239.66	-	.71	6.95E-06	1.73E-03
+regulation of nitrogen compound metabolic process (GO:0051171)	568	159	224.26	-	.71	1.22E-05	2.27E-03
+regulation of primary metabolic process (GO:0080090)	580	162	229.00	-	.71	7.52E-06	1.67E-03
+regulation of gene expression (GO:0010468)	450	107	177.67	-	.60	1.04E-07	4.90E-05
+positive regulation of biosynthetic process (GO:0009891)	197	39	77.78	-	.50	1.73E-05	3.01E-03
+positive regulation of cellular biosynthetic process (GO:0031328)	194	38	76.60	-	.50	1.50E-05	2.66E-03
+regulation of nucleobase-containing compound metabolic process (GO:0019219)	378	72	149.24	-	.48	8.01E-11	5.32E-08
+regulation of biosynthetic process (GO:0009889)	383	71	151.22	-	.47	1.91E-11	1.52E-08
+regulation of cellular biosynthetic process (GO:0031326)	379	69	149.64	-	.46	9.95E-12	8.82E-09
+positive regulation of nucleobase-containing compound metabolic process (GO:0045935)	187	34	73.83	-	.46	4.43E-06	1.26E-03
+regulation of RNA metabolic process (GO:0051252)	358	64	141.35	-	.45	2.13E-11	1.55E-08
+regulation of macromolecule biosynthetic process (GO:0010556)	364	64	143.72	-	.45	5.76E-12	9.18E-09
+regulation of cellular macromolecule biosynthetic process (GO:2000112)	363	63	143.32	-	.44	3.43E-12	6.83E-09
+positive regulation of macromolecule biosynthetic process (GO:0010557)	179	31	70.67	-	.44	2.55E-06	8.85E-04
+positive regulation of RNA biosynthetic process (GO:1902680)	166	28	65.54	-	.43	3.60E-06	1.15E-03
+positive regulation of transcription, DNA-templated (GO:0045893)	166	28	65.54	-	.43	3.60E-06	1.11E-03
+positive regulation of nucleic acid-templated transcription (GO:1903508)	166	28	65.54	-	.43	3.60E-06	1.06E-03
+negative regulation of biosynthetic process (GO:0009890)	137	23	54.09	-	.43	3.02E-05	4.15E-03
+regulation of RNA biosynthetic process (GO:2001141)	335	56	132.27	-	.42	6.52E-12	8.66E-09
+regulation of transcription, DNA-templated (GO:0006355)	335	56	132.27	-	.42	6.52E-12	7.42E-09
+regulation of nucleic acid-templated transcription (GO:1903506)	335	56	132.27	-	.42	6.52E-12	6.49E-09
+positive regulation of transcription by RNA polymerase II (GO:0045944)	136	22	53.70	-	.41	1.77E-05	3.01E-03
+positive regulation of RNA metabolic process (GO:0051254)	174	28	68.70	-	.41	7.23E-07	2.88E-04
+negative regulation of nucleobase-containing compound metabolic process (GO:0045934)	126	20	49.75	-	.40	2.98E-05	4.18E-03
+negative regulation of cellular biosynthetic process (GO:0031327)	133	21	52.51	-	.40	1.41E-05	2.55E-03
+negative regulation of RNA metabolic process (GO:0051253)	121	19	47.77	-	.40	3.26E-05	4.41E-03
+negative regulation of macromolecule biosynthetic process (GO:0010558)	128	19	50.54	-	.38	8.62E-06	1.76E-03
+negative regulation of cellular macromolecule biosynthetic process (GO:2000113)	127	18	50.14	-	.36	4.68E-06	1.29E-03
+negative regulation of RNA biosynthetic process (GO:1902679)	116	16	45.80	-	.35	7.51E-06	1.81E-03
+negative regulation of transcription, DNA-templated (GO:0045892)	116	16	45.80	-	.35	7.51E-06	1.76E-03
+negative regulation of nucleic acid-templated transcription (GO:1903507)	116	16	45.80	-	.35	7.51E-06	1.71E-03
+regulation of transcription by RNA polymerase II (GO:0006357)	264	34	104.23	-	.33	4.22E-13	3.36E-09
+negative regulation of transcription by RNA polymerase II (GO:0000122)	88	11	34.74	-	.32	3.85E-05	4.72E-03

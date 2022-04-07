@@ -1,0 +1,21 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20220202)
+Annotation Version and Release Date:	PANTHER version 17.0 Released 2022-02-22
+Analyzed List:	Brain_CSF_positive.txt (Homo sapiens)
+Reference List:	Brain_all.txt (Homo sapiens)
+Test Type:	FISHER
+Correction:	FDR
+PANTHER Protein Class	Brain_all.txt - REFLIST (2434)	Brain_CSF_positive.txt (961)	Brain_CSF_positive.txt (expected)	Brain_CSF_positive.txt (over/under)	Brain_CSF_positive.txt (fold Enrichment)	Brain_CSF_positive.txt (raw P-value)	Brain_CSF_positive.txt (FDR)
+cadherin (PC00057)	50	49	19.74	+	2.48	6.88E-06	1.56E-04
+cell adhesion molecule (PC00069)	92	85	36.32	+	2.34	1.47E-08	7.78E-07
+G-protein coupled receptor (PC00021)	126	25	49.75	-	.50	8.18E-04	1.45E-02
+gene-specific transcriptional regulator (PC00264)	195	11	76.99	-	.14	1.01E-17	1.61E-15
+homeodomain transcription factor (PC00119)	54	3	21.32	-	.14	1.88E-05	3.74E-04
+DNA-binding transcription factor (PC00218)	180	10	71.07	-	.14	1.88E-16	1.49E-14
+helix-turn-helix transcription factor (PC00116)	71	3	28.03	-	.11	1.28E-07	5.09E-06
+C2H2 zinc finger transcription factor (PC00248)	38	0	15.00	-	 < 0.01	4.49E-06	1.19E-04
+zinc finger transcription factor (PC00244)	45	0	17.77	-	 < 0.01	3.63E-07	1.15E-05
