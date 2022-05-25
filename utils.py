@@ -10,8 +10,34 @@ import pandas as pd
 
 from Bio.SeqUtils.ProtParam import ProteinAnalysis
 
+def keep_first_uniprot(string):
+    if "," in string:
+        uniprots = string.split(",")
+        uniprot1 = uniprots[0]
+    else:
+        uniprot1 = string
+    
+    return uniprot1
 
-# calculate amino acid proportions and attributes
+
+def get_brain_expression(string):
+    # check if expression for multiple tissues is provided
+    if ";" in string:
+        tissues = string.split(";")
+        for t in tissues:
+            # keep only information on brain expression
+            if "brain" in t:
+                brain_string = t 
+    else:
+        brain_string = string
+    
+    # extract expression value from string
+    _, exp = brain_string.split(" ")
+    exp = float(exp)
+
+    return exp
+
+
 def protein_analysis(df, seq_col):
 
     PA = ProteinAnalysis(df[seq_col])
