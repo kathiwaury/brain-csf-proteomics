@@ -10,6 +10,7 @@ import pandas as pd
 
 from Bio.SeqUtils.ProtParam import ProteinAnalysis
 
+
 def keep_first_uniprot(string):
     if "," in string:
         uniprots = string.split(",")
@@ -93,3 +94,28 @@ def protein_analysis(df, seq_col):
     # df["Coil"] = df[["G", "N", "P", "S", "D"]].sum()
 
     return df
+
+
+def get_uniprot(string):
+    try:
+        _, uniprot, _ = string.split("|")
+    except:
+        _, uniprot, _ = string.split("_", maxsplit=2)  
+    return uniprot
+
+
+def get_value(string):
+    _, value = string.split("=")
+    return float(value)
+
+
+def increase_stringency_CSF(df_features, csf_df, i):
+    
+    stringent_csf = csf_df[csf_df["#Studies"]>=i]["Uniprot"]
+    remove_csf = set(df_features[df_features["CSF"] == 1]["Uniprot"]) - set(stringent_csf)
+    df_stringent = df_features.drop(df_features[(df_features["CSF"] == 1) & (df_features["Uniprot"].isin(remove_csf))].index)
+    
+    print("Number of CSF proteins to be removed:", len(remove_csf))
+    print("Number of CSF proteins left:", len(df_stringent[(df_stringent["CSF"] == 1)]))   
+    
+    return df_stringent
