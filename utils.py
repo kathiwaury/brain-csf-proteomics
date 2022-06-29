@@ -96,6 +96,35 @@ def protein_analysis(df, seq_col):
     return df
 
 
+def derive_global_features(df_features, df_nsp):
+    """
+    Takes feature dataframe and NSP dataframe.
+    Calculates global features from NSP residue-based features for the relevant protein and adds the values to 
+    the feature dataframe in new columns.
+    Outputs the updated feature dataframe with additional columns.
+    """     
+    
+    # subset NSP dataframe
+    uniprot = df_features["Uniprot"]
+    df_nsp_protein = df_nsp[df_nsp["id"] == uniprot]
+    
+    # disorder
+    df_features["Disorder_NSP"] = np.mean(df_nsp_protein["disorder"])     
+    
+    # secondary structure
+    sec_str = {"C":"Coil_NSP", "H":"Helix_NSP", "E":"Sheet_NSP"}
+    for i in sec_str.keys():
+        column_name = sec_str[i]
+        try:
+            # add percentage of secondar structure as feature
+            df_features[column_name] = df_nsp_protein["q3"].value_counts(normalize=True)[i]
+        except KeyError:
+            # if secondary structure type not present, add 0
+            df_features[column_name] = 0
+    
+    return df_features
+
+
 def get_uniprot(string):
     try:
         _, uniprot, _ = string.split("|")
