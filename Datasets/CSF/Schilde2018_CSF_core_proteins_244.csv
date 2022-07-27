@@ -1,0 +1,266 @@
+﻿Uniprot ID;Gene name;Protein name;Hühmer et al. Table 3;"Hühmer et. al. proteins Ids 
+detected in our study";"Hühmer et. al. proteins Ids detected in 
+the CSF core proteome in our study";Stoop et al. identified CSF proteins;merged table of compositional CSF proteins
+O00391;QSOX1;Sulfhydryl oxidase 1;;;;;x
+O00533;CHL1;Neural cell adhesion molecule L1-like protein;;;;x;x
+O00584;RNASET2;Ribonuclease T2;;;;;x
+O14594;NCAN;Neurocan core protein;;;;;x
+O14791;APOL1;Apolipoprotein L1;x;x;;;x
+O15031;PLXNB2;Plexin-B2;;;;;x
+O15240;VGF;Neurosecretory protein VGF;;;;x;x
+O15394;NCAM2;Neural cell adhesion molecule 2;x;x;x;x;x
+O43505;B4GAT1;Beta-1,4-glucuronyltransferase 1;x;x;x;x;x
+O75326;SEMA7A;Semaphorin-7A;;;;;x
+O75882;ATRN;Attractin;;;;;x
+O94769;ECM2;Extracellular matrix protein 2;;;;;x
+O94856;NFASC;Neurofascin;;;;;x
+O94919;ENDOD1;Endonuclease domain-containing 1 protein;;;;;x
+O94985;CLSTN1;Calsyntenin-1;;;;x;x
+O95502;NPTXR;Neuronal pentraxin receptor;;;;x;x
+P00441;SOD1;Superoxide dismutase [Cu-Zn];x;x;x;x;x
+P00450;CP;Ceruloplasmin;x;x;x;x;x
+P00734;F2;Prothrombin;x;x;x;x;x
+P00736;C1R;Complement C1r subcomponent;;;;x;x
+P00738;HP;Haptoglobin;x;x;x;x;x
+P00746;CFD;Complement factor D;;;;;x
+P00747;PLG;Plasminogen;x;x;x;x;x
+P00748;F12;Coagulation factor XII;;;;;x
+P00751;CFB;Complement factor B;x;x;x;x;x
+P01008;SERPINC1;Antithrombin-III;x;x;x;x;x
+P01009;SERPINA1;Alpha-1-antitrypsin;x;x;x;x;x
+P01011;SERPINA3;Alpha-1-antichymotrypsin;x;x;x;x;x
+P01019;AGT;Angiotensinogen;x;x;x;x;x
+P01023;A2M;Alpha-2-macroglobulin;x;x;x;x;x
+P01024;C3;Complement C3;x;x;x;x;x
+P01028;;;obsolete;;;;
+P01031;C5;Complement C5;;;;;x
+P01033;TIMP1;Metalloproteinase inhibitor 1;;;;;x
+P01034;CST3;Cystatin-C;x;x;x;x;x
+P01042;KNG1;Kininogen-1;x;x;x;x;x
+P01210;PENK;Proenkephalin-A;;;;;x
+P01344;IGF2;Insulin-like growth factor II;x;x;x;;x
+P01597;IGKV1-39;Immunoglobulin kappa variable 1-39;x;;;;x
+P01619;IGKV3-20;Ig kappa chain V-III region B6;;;;;x
+P01777;IGHV3-23;Immunoglobulin heavy variable 3-23;x;;;;x
+P01834;IGKC;Ig kappa chain C region;x;x;x;x;x
+P01842;IGLC1;Immunoglobulin lamda constant 1;x;;;x;x
+P01857;IGHG1;Ig gamma-1 chain C region;x;x;x;x;x
+P01859;IGHG2;Ig gamma-2 chain C region;x;x;x;x;x
+P01860;IGHG3;Ig gamma-3 chain C region;x;x;x;x;x
+P01861;IGHG4;Ig gamma-4 chain C region;;;;x;x
+P01871;IGHM;Ig mu chain C region;x;x;x;;x
+P01876;IGHA1;Ig alpha-1 chain C region;x;x;x;;x
+P01877;IGHA2;Ig alpha-2 chain C region;;;;;x
+P02042;HBD;Hemoglobin subunit delta;x;;;;x
+P02452;COL1A1;Collagen alpha-1(I) chain;;;;;x
+P02462;COL4A1;Collagen alpha-1(IV) chain;x;;;;x
+P02647;APOA1;Apolipoprotein A-I;x;x;x;x;x
+P02649;APOE;Apolipoprotein E;x;x;x;x;x
+P02652;APOA2;Apolipoprotein A-II;x;x;x;x;x
+P02671;FGA;Fibrinogen alpha chain;x;x;x;x;x
+P02675;FGB;Fibrinogen beta chain;x;x;x;x;x
+P02679;FGG;Fibrinogen gamma chain;x;x;x;x;x
+P02743;APCS;Serum amyloid P-component;x;;;;x
+P02746;C1QB;Complement C1q subcomponent subunit B;;;;x;x
+P02747;C1QC;Complement C1q subcomponent subunit C;;;;;x
+P02748;C9;Complement component C9;x;x;x;;x
+P02749;APOH;Beta-2-glycoprotein 1;x;x;x;x;x
+P02750;LRG1;Leucine-rich alpha-2-glycoprotein;x;x;x;;x
+P02751;FN1;Fibronectin;x;x;x;x;x
+P02753;RBP4;Retinol-binding protein 4;x;x;x;;x
+P02760;AMBP;Protein AMBP;x;x;x;;x
+P02763;ORM1;Alpha-1-acid glycoprotein 1;;;;x;x
+P02765;AHSG;Alpha-2-HS-glycoprotein;x;x;x;x;x
+P02766;TTR;Transthyretin;x;x;x;x;x
+P02768;ALB;Serum albumin;x;x;x;x;x
+P02774;GC;Vitamin D-binding protein;x;x;x;x;x
+P02787;TF;Serotransferrin;x;x;x;x;x
+P02790;HPX;Hemopexin;x;x;x;x;x
+P04004;VTN;Vitronectin;x;x;x;x;x
+P04070;PROC;Vitamin K-dependent protein C;;;;;x
+P04075;ALDOA;Fructose-bisphosphate aldolase A;;;;;x
+P04156;PRNP;Major prion protein;;;;x;x
+P04180;LCAT;Phosphatidylcholine-sterol acyltransferase;;;;;x
+P04196;HRG;Histidine-rich glycoprotein;x;x;x;x;x
+P04216;THY1;Thy-1 membrane glycoprotein;;;;x;x
+P04217;A1BG;Alpha-1B-glycoprotein;x;x;x;x;x
+P04406;GAPDH;Glyceraldehyde-3-phosphate dehydrogenase;x;x;x;;x
+P04433;IGKV3-11;Ig kappa chain V-III region VG;;;;;x
+P05060;CHGB;Secretogranin-1;x;x;x;x;x
+P05067;APP;Amyloid beta A4 protein;x;x;x;x;x
+P05090;APOD;Apolipoprotein D;x;x;x;x;x
+P05154;SERPINA5;Plasma serine protease inhibitor;;;;;x
+P05155;SERPING1;Plasma protease C1 inhibitor;;;;x;x
+P05156;CFI;Complement factor I;;;;;x
+P05452;CLEC3B;Tetranectin;x;x;x;x;x
+P05546;SERPIND1;Heparin cofactor 2;;;;;x
+P06396;GSN;Gelsolin;x;x;x;x;x
+P06681;C2;Complement C2;;;;;x
+P06727;APOA4;Apolipoprotein A-IV;x;x;x;x;x
+P07195;LDHB;L-lactate dehydrogenase B chain;;;;x;x
+P07225;PROS1;Vitamin K-dependent protein S;;;;;x
+P07339;CTSD;Cathepsin D;x;x;x;x;x
+P07358;C8B;Complement component C8 beta chain;;;;;x
+P07360;C8G;Complement component C8 gamma chain;;;;;x
+P07602;PSAP;Prosaposin;;;;;x
+P07998;RNASE1;Ribonuclease pancreatic;;;;x;x
+P08123;COL1A2;Collagen alpha-2(I) chain;;;;;x
+P08185;SERPINA6;Corticosteroid-binding globulin;;;;;x
+P08253;MMP2;72 kDa type IV collagenase;;;;;x
+P08294;SOD3;Extracellular superoxide dismutase [Cu-Zn];;;;x;x
+P08571;CD14;Monocyte differentiation antigen CD14;;;;;x
+P08603;CFH;Complement factor H;;;;x;x
+P08697;SERPINF2;Alpha-2-antiplasmin;x;x;x;x;x
+P09211;GSTP1;Glutathione S-transferase P;x;x;;;x
+P09486;SPARC;SPARC;x;x;x;;x
+P09603;CSF1;Macrophage colony-stimulating factor 1;;;;;x
+P09871;C1S;Complement C1s subcomponent;x;x;x;x;x
+P0C0L4;C4A;Complement C4-A;;;;x;x
+P0C0L5;C4B;Complement C4-B;;;;;x
+P10451;SPP1;Osteopontin;x;x;x;x;x
+P10643;C7;Complement component C7;x;x;x;x;x
+P10645;CHGA;Chromogranin-A;x;x;x;x;x
+P10909;CLU;Clusterin;x;x;x;x;x
+P11021;HSPA5;78 kDa glucose-regulated protein;;;;;x
+P12109;COL6A1;Collagen alpha-1(VI) chain;;;;x;x
+P12259;F5;Coagulation factor V;;;;;x
+P13521;SCG2;Secretogranin-2;;;;x;x
+P13591;NCAM1;Neural cell adhesion molecule 1;;;;x;x
+P13671;C6;Complement component C6;;;;;x
+P13987;CD59;CD59 glycoprotein;;;;;x
+P14136;GFAP;Glial fibrillary acidic protein ;x;;;;x
+P14618;PKM;Pyruvate kinase PKM;;;;x;x
+P16035;TIMP2;Metalloproteinase inhibitor 2;;;;;x
+P16870;CPE;Carboxypeptidase E;;;;x;x
+P17174;GOT1;Aspartate aminotransferase, cytoplasmic;;;;;x
+P17900;GM2A;Ganglioside GM2 activator;;;;x;x
+P18065;IGFBP2;Insulin-like growth factor-binding protein 2;;;;x;x
+P19021;PAM;Peptidyl-glycine alpha-amidating monooxygenase;;;;x;x
+P19022;CDH2;Cadherin-2;;;;x;x
+P19652;ORM2;Alpha-1-acid glycoprotein 2;x;x;x;x;x
+P19823;ITIH2;Inter-alpha-trypsin inhibitor heavy chain H2;;;;x;x
+P19827;ITIH1;Inter-alpha-trypsin inhibitor heavy chain H1;;;;x;x
+P20774;OGN;Mimecan;;;;x;x
+P22352;GPX3;Glutathione peroxidase 3;;;;;x
+P22692;IGFBP4;Insulin-like growth factor-binding protein 4;;;;;x
+P23142;FBLN1;Fibulin-1;x;x;x;;x
+P23468;PTPRD;Receptor-type tyrosine-protein phosphatase delta;;;;;x
+P23470;PTPRG;Receptor-type tyrosine-protein phosphatase gamma;;;;;x
+P23471;PTPRZ1;Receptor-type tyrosine-protein phosphatase zeta;;;;x;x
+P24592;IGFBP6;Insulin-like growth factor-binding protein 6;;;;x;x
+P25311;AZGP1;Zinc-alpha-2-glycoprotein;x;x;x;x;x
+P27797;CALR;Calreticulin;;;;;x
+P29622;SERPINA4;Kallistatin;;;;;x
+P30086;PEBP1;Phosphatidylethanolamine-binding protein 1;;;;;x
+P35542;SAA4;Serum amyloid A-4 protein;x;x;;;x
+P36222;CHI3L1;Chitinase-3-like protein 1;;;;x;x
+P36955;SERPINF1;Pigment epithelium-derived factor;x;x;x;x;x
+P39060;COL18A1;Collagen alpha-1(XVIII) chain;;;;;x
+P40189;IL6ST;Interleukin-6 receptor subunit beta;;;;;x
+P41222;PTGDS;Prostaglandin-H2 D-isomerase;x;x;x;x;x
+P42785;PRCP;Lysosomal Pro-X carboxypeptidase;;;;;x
+P43121;MCAM;Cell surface glycoprotein MUC18;;;;;x
+P43251;BTD;Biotinidase;;;;x;x
+P43652;AFM;Afamin;;;;x;x
+P49760;CLK2;Dual specificity protein kinase CLK2;x;;;;x
+P51693;APLP1;Amyloid-like protein 1;;;;x;x
+P51884;LUM;Lumican;;;;x;x
+P54289;CACNA2D1;Voltage-dependent calcium channel subunit alpha-2/delta-1;;;;x;x
+P54764;EPHA4;Ephrin type-A receptor 4;;;;x;x
+P55058;PLTP;Phospholipid transfer protein;;;;;x
+P55290;CDH13;Cadherin-13;;;;x;x
+P60709;ACTB;Actin, cytoplasmic 1;x;x;;;x
+P61769;B2M;Beta-2-microglobulin;x;x;x;x;x
+P61916;NPC2;Epididymal secretory protein E1;;;;x;x
+P62987;UBA52;Ubiquitin-60S ribosomal protein L40;;;;;x
+P62988;#N/A;;obsolete;;;obsolete;
+P68871;HBB;Hemoglobin subunit beta;x;x;;;x
+P69905;"HBA1;";Hemoglobin subunit alpha;x;x;;;x
+P78324;SIRPA;Tyrosine-protein phosphatase non-receptor type substrate 1;;;;x;x
+P78509;RELN;Reelin;;;;x;x
+P98160;HSPG2;Basement membrane-specific heparan sulfate proteoglycan core protein;;;;x;x
+Q02246;CNTN2;Contactin-2;;;;x;x
+Q02383;SEMG2;Semenogelin-2;x;;;;x
+Q02818;NUCB1;Nucleobindin-1;;;;;x
+Q06830;PRDX1;Peroxiredoxin-1;x;x;;;x
+Q08380;LGALS3BP;Galectin-3-binding protein;;;;x;x
+Q08629;SPOCK1;Testican-1;;;;;x
+Q12805;EFEMP1;EGF-containing fibulin-like extracellular matrix protein 1;x;x;x;;x
+Q12860;CNTN1;Contactin-1;;;;;x
+Q12907;LMAN2;Vesicular integral-membrane protein VIP36;;;;;x
+Q13228;SELENBP1;Selenium-binding protein 1;;;;;x
+Q13332;PTPRS;Receptor-type tyrosine-protein phosphatase S;;;;;x
+Q13449;LSAMP;Limbic system-associated membrane protein;;;;x;x
+Q13740;ALCAM;CD166 antigen;;;;;x
+Q13822;ENPP2;Ectonucleotide pyrophosphatase/phosphodiesterase family member 2;;;;x;x
+Q14118;DAG1;Dystroglycan;;;;;x
+Q14515;SPARCL1;SPARC-like protein 1;;;;x;x
+Q14520;HABP2;Hyaluronan-binding protein 2;;;;;x
+Q14624;ITIH4;Inter-alpha-trypsin inhibitor heavy chain H4;x;x;x;x;x
+Q14982;OPCML;Opioid-binding protein/cell adhesion molecule;;;;;x
+Q15113;PCOLCE;Procollagen C-endopeptidase enhancer 1;;;;x;x
+Q15582;TGFBI;Transforming growth factor-beta-induced protein ig-h3;;;;;x
+Q15818;NPTX1;Neuronal pentraxin-1;x;x;x;;x
+Q16270;IGFBP7;Insulin-like growth factor-binding protein 7;;;;x;x
+Q16610;ECM1;Extracellular matrix protein 1;;;;;x
+Q24JP5;TMEM132A;Transmembrane protein 132A;;;;;x
+Q53EL9;SEZ6;Seizure protein 6 homolog;;;;;x
+Q59FY4;ACACA;Acetyl-CoA carboxylase 1;x;;;;x
+Q6UX73;C16orf89;UPF0764 protein C16orf89;;;;;x
+Q7Z3B1;NEGR1;Neuronal growth regulator 1;;;;;x
+Q7Z7M0;MEGF8;Multiple epidermal growth factor-like domains protein 8;;;;;x
+Q86UX2;ITIH5;Inter-alpha-trypsin inhibitor heavy chain H5;;;;;x
+Q86VB7;CD163;Scavenger receptor cysteine-rich type 1 protein M130;;;;;x
+Q8N126;CADM3;Cell adhesion molecule 3;;;;;x
+Q8N2S1;LTBP4;Latent-transforming growth factor beta-binding protein 4;;;;;x
+Q8N3J6;CADM2;Cell adhesion molecule 2;;;;x;x
+Q8NFT8;DNER;Delta and Notch-like epidermal growth factor-related receptor;;;;;x
+Q8NFZ8;CADM4;Cell adhesion molecule 4;;;;;x
+Q8WXD2;SCG3;Secretogranin-3;;;;x;x
+Q8WZA1;POMGNT1;Protein O-linked-mannose beta-1,2-N-acetylglucosaminyltransferase 1;;;;;x
+Q92520;FAM3C;Protein FAM3C;;;;x;x
+Q92823;NRCAM;Neuronal cell adhesion molecule;;;;x;x
+Q92859;NEO1;Neogenin;;;;;x
+Q92876;KLK6;Kallikrein-6;x;x;x;x;x
+Q92932;PTPRN2;Receptor-type tyrosine-protein phosphatase N2;;;;;x
+Q969P0;IGSF8;Immunoglobulin superfamily member 8;;;;;x
+Q96FE7;PIK3IP1;Phosphoinositide-3-kinase-interacting protein 1;;;;;x
+Q96GW7;BCAN;Brevican core protein;;;;x;x
+Q96IY4;CPB2;Carboxypeptidase B2;;;;;x
+Q96KN2;CNDP1;Beta-Ala-His dipeptidase;;;;x;x
+Q96PD5;PGLYRP2;N-acetylmuramoyl-L-alanine amidase;;;;;x
+Q96S96;PEBP4;Phosphatidylethanolamine-binding protein 4;;;;;x
+Q99435;NELL2;Protein kinase C-binding protein NELL2;;;;x;x
+Q99574;SERPINI1;Neuroserpin;;;;x;x
+Q99969;RARRES2;Retinoic acid receptor responder protein 2;;;;;x
+Q9BY67;CADM1;Cell adhesion molecule 1;;;;;x
+Q9BYH1;SEZ6L;Seizure 6-like protein;;;;x;x
+Q9NQ79;CRTAC1;Cartilage acidic protein 1;;;;x;x
+Q9NQX5;NPDC1;Neural proliferation differentiation and control protein 1;x;x;;;x
+Q9P0K1;ADAM22;Disintegrin and metalloproteinase domain-containing protein 22;;;;x;x
+Q9P121;NTM;Neurotrimin;;;;x;x
+Q9P2S2;NRXN2;Neurexin-2;;;;;x
+Q9UBP4;DKK3;Dickkopf-related protein 3;x;x;x;x;x
+Q9UHG2;PCSK1N;ProSAAS;;;;x;x
+Q9ULB1;NRXN1;Neurexin-1;;;;;x
+Q9Y4C0;NRXN3;Neurexin-3;;;;;x
+Q9Y646;CPQ;Carboxypeptidase Q;;;;;x
+Q9Y6R7;FCGBP;IgGFc-binding protein;;;;x;x
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;

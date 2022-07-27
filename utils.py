@@ -148,3 +148,11 @@ def increase_stringency_CSF(df_features, csf_df, i):
     print("Number of CSF proteins left:", len(df_stringent[(df_stringent["CSF"] == 1)]))   
     
     return df_stringent
+
+
+def print_p_val(p_val):
+    
+    if p_val < 0.0001:
+        return "< 0.0001"
+    else:
+        return "%.4f" % p_val
