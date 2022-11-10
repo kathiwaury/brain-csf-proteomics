@@ -1,0 +1,1198 @@
+1 IPI00385507 1 10-kDa protein 2
+2 IPI00478742 1 101-kDa protein 7
+3 IPI00476999 1 107-kDa protein 10 6
+IPI00305461 Inter-alpha-trypsin inhibitor heavy chain
+h2 precursor
+4 IPI00333234 1 12-kDa protein 2
+5 IPI00164744 1 12-kDa protein 2
+6 IPI00479981 1 12-kDa protein 2
+7 IPI00472011 1 154-kDa protein 23 2
+IPI00217291 Splice isoform 2 of neogenin precursor
+IPI00023814 Splice isoform 1 of neogenin precursor
+8 IPI00334432 0.76 16-kDa protein 1 4
+IPI00410714 Hemoglobin alpha-1 globin chain
+9 IPI00479252 1 169-kDa protein 4 4
+IPI00332272 Splice isoform 3 of receptor-type
+tyrosine-protein phosphatase
+S precursor
+IPI00289831 Splice isoform 1 of receptor-type
+tyrosine-protein phosphatase
+S precursor
+IPI00299590 Splice isoform 5 of receptor-type
+tyrosine-protein phosphatase
+S precursor
+IPI00293275 Protein tyrosine phosphatase, receptor
+type, sigma isoform 3 precursor
+IPI00332271 Splice isoform 2 of receptor-type
+tyrosine-protein phosphatase
+S precursor
+IPI00332273 Splice isoform 4 of receptor-type
+tyrosine-protein phosphatase
+S precursor
+10 IPI00477336 1 21-kDa protein 16 16
+IPI00022429 Alpha-1-acid glycoprotein 1 precursor
+IPI00479531 24-kDa protein
+11 IPI00412608 1 25-kDa protein 2
+IPI00480034 25-kDa protein
+IPI00395435 Hypothetical protein
+IPI00384355 Hypothetical protein
+12 IPI00019927 0.84 26S proteasome non-protease regulatory
+subunit 7
+2
+13 IPI00453476 1 29-kDa protein 3
+IPI00385244 Phosphoglycerate mutase 1 (brain)
+14 IPI00184598 0.99 37-kDa protein
+15 IPI00473015 1 54-kDa protein 6 6
+16 IPI00477450 1 56-kDa protein 2
+17 IPI00479169 1 65-kDa protein 2
+IPI00430856 Hypothetical protein
+18 IPI00027780 1 72-kDa type IV collagenase precursor 3 2
+19 IPI00021440 1 Actin, cytoplasmic 2 7 5
+IPI00021439 Actin, cytoplasmic 1
+20 IPI00015351 1 Ad039 2 1
+21 IPI00005908 1 ADAMTS-1 precursor 3 3
+22 IPI00296965 0.93 ADAMTS-6 precursor 2
+23 IPI00165972 1 Adipsin\complement factor D precursor 7
+IPI00019579 Complement factor D precursor
+24 IPI00019943 1 Afamin precursor 10 8
+25 IPI00479925 1 Agrin 4 2
+IPI00374563 Agrin precursor
+26 IPI00065931 0.92 A-kinase anchoring protein 2
+IPI00163646 Protein kinase A anchoring protein Ht31
+IPI00329783 Guanine nucleotide exchange factor Lbc
+27 IPI00007257 1 Alcadein alpha-1 30 11
+28 IPI00465439 1 ALDOA protein 6 6
+29 IPI00418262 1 ALDOC protein 12 8
+30 IPI00465313 1 Alpha 2 macroglobulin 107 25
+IPI00478003 Alpha-2-macroglobulin precursor
+31 IPI00020091 1 Alpha-1-acid glycoprotein 2 precursor 12 12
+32 IPI00305457 1 Alpha-1-antitrypsin precursor 53 31
+33 IPI00218912 0.6 Alpha-1B-adrenergic receptor 2
+34 IPI00022895 1 Alpha-1B-glycoprotein precursor 17 17
+35 IPI00029863 1 Alpha-2-antiplasmin precursor 11 11
+36 IPI00166729 1 Alpha-2-glycoprotein 1, zinc 15 15
+37 IPI00022431 1 Alpha-2-HS-glycoprotein precursor 7 7
+38 IPI00003802 1 Alpha-mannosidase II 4
+39 IPI00008787 1 Alpha-N-acetylglucosaminidase
+precursor
+3
+40 IPI00022426 1 AMBP protein precursor 10 9
+41 IPI00386839 1 Amyloid lambda 6 light chain variable
+region SAR
+3
+42 IPI00020012 1 Amyloid-like protein 1 precursor 14 12
+43 IPI00032220 1 Angiotensinogen precursor 28 24
+44 IPI00470657 1 Anti-colorectal carcinoma heavy chain 2
+45 IPI00032179 1 Antithrombin III variant 21 21
+46 IPI00013941 1 Aortic carboxypeptidase-like protein
+ACLP
+3
+IPI00444378 Hypothetical protein FLJ45634
+47 IPI00479805 1 APOA4 protein 27 27
+IPI00304273 Apolipoprotein A-IV precursor
+IPI00478761 45-kDa protein
+48 IPI00168479 1 ApoA-I binding protein precursor 2 1
+49 IPI00021841 1 Apolipoprotein A-I precursor 31 31
+50 IPI00021854 0.66 Apolipoprotein A-II precursor 1 4
+51 IPI00021856 1 Apolipoprotein C-II precursor 2
+52 IPI00021857 1 Apolipoprotein C-III precursor 4
+53 IPI00006662 1 Apolipoprotein D precursor 23 7
+54 IPI00021842 1 Apolipoprotein E precursor 48 23
+55 IPI00219029 1 Aspartate aminotransferase 1 16 16
+56 IPI00303476 0.53 ATP synthase beta chain, mitochondrial
+precursor
+2
+57 IPI00025079 0.98 ATP-binding cassette, sub-family C,
+member 9 isoform SUR2A-delta-14
+2
+IPI00024278 Splice isoform 1 of sulfonylurea
+receptor 2
+IPI00216251 Splice isoform 2 of sulfonylurea
+receptor 2
+58 IPI00007839 0.57 ATP-binding cassette, sub-family G,
+member 5
+2
+59 IPI00296992 1 AXL receptor tyrosine kinase, isoform 1 2
+60 IPI00003221 0.96 Ba526d8.2 3
+61 IPI00024284 1 Basement membrane-specific heparin
+sulfate proteoglycan core protein
+precursor
+23 7
+62 IPI00298828 1 Beta-2-glycoprotein I precursor 9 9
+63 IPI00004656 1 Beta-2-microglobulin precursor 4 4
+64 IPI00219219 1 Beta-galactosidase binding lectin
+precursor
+2
+65 IPI00382950 1 Beta-globin gene from a thalassemia
+patient, complete cds
+4 4
+66 IPI00304865 1 Betaglycan 3
+67 IPI00298793 1 Beta-mannosidase precursor 5
+68 IPI00218413 1 Biotinidase precursor 4 2
+69 IPI00009619 1 Bk134p22.1 8 8
+IPI00166048 Brain immunoglobulin receptor
+precursor
+70 IPI00005794 1 Blood plasma glutamate
+carboxypeptidase precursor
+2
+IPI00007664 Hypothetical protein FLJ90651
+71 IPI00292304 0.96 Brain protein 2
+72 IPI00022333 1 Brain-specific angiogenesis inhibitor 1
+precursor
+3 2
+73 IPI00394878 1 C1q and tumor necrosis factor related
+protein 1
+2
+IPI00075013 Hypothetical protein FLJ23928
+74 IPI00418163 1 C4b1 70 70
+75 IPI00015346 0.94 Cadherin EGF LAG seven-pass G-type
+receptor 2 precursor
+2
+76 IPI00024046 1 Cadherin-13 precursor 3 1
+77 IPI00220361 1 Calbindin 1 2 2
+78 IPI00479758 1 Calcium channel, alpha 2\delta subunit 2 2
+IPI00410600 Calcium channel, alpha 2\delta subunit 2
+79 IPI00375836 0.94 Cancer associated nucleoprotein 2
+80 IPI00383710 1 Cancer-associated SCM-recognition
+immunedefense-suppressing and serine
+protease-protecting peptide, CRISPP
+peptide
+2 2
+81 IPI00027466 1 Carbonic anhydrase IV precursor 2
+82 IPI00031121 1 Carboxypeptidase E precursor 12 12
+83 IPI00479116 1 Carboxypeptidase N 83-kDa chain
+precursor
+2
+IPI00166930 PREDICTED: similar to
+carboxypeptidase N 83-kDa chain
+(carboxypeptidase N regulatory
+subunit)
+84 IPI00295741 1 Cathepsin B precursor 8
+85 IPI00011229 1 Cathepsin D precursor 21 11
+86 IPI00297487 0.97 Cathepsin H precursor 1 4
+IPI00375426 Cathepsin H
+87 IPI00012887 0.94 Cathepsin L precursor 1 3
+IPI00457011 PREDICTED: similar to cathepsin L
+precursor (major excreted protein)
+(MEP)
+88 IPI00011302 0.97 CD59 glycoprotein precursor 1 3
+89 IPI00337548 1 Cell growth regulator with EF hand
+domain 1
+3
+IPI00008584 Cell growth regulator with EF hand
+domain 1
+90 IPI00216250 1 Cell recognition protein CASPR4 14
+91 IPI00016334 1 Cell surface glycoprotein MUC18
+precursor
+3 3
+92 IPI00186006 1 Centrosomal colon cancer autoantigen
+protein
+2
+93 IPI00402157 1 Cerebellin 3 precursor 2 2
+94 IPI00011605 0.98 Cerebellin precursor 2 2
+95 IPI00017601 1 Ceruloplasmin precursor 66 21
+96 IPI00002147 1 Chitinase-3 like protein 1 precursor 9 9
+97 IPI00025864 0.98 Cholinesterase precursor 2
+98 IPI00014592 1 Chondroadherin precursor 4 4
+99 IPI00419463 1 Chromogranin A 12 8
+100 IPI00145593 0.94 Chromosome 7 open reading frame 3 2
+101 IPI00291262 1 Clusterin precursor 48 21
+IPI00400826 Clusterin isoform 1
+102 IPI00017704 0.97 Coactosin-like protein 2
+103 IPI00022937 1 Coagulation factor V precursor 21 3
+IPI00419311 Coagulation factor V
+104 IPI00019581 1 Coagulation factor XII precursor 3 3
+105 IPI00297646 1 Collagen alpha 1(I) chain precursor 13
+106 IPI00021033 1 Collagen alpha 1(III) chain precursor 5
+IPI00167087 COL3A1 protein
+107 IPI00291136 1 Collagen alpha 1(VI) chain precursor 16 2
+108 IPI00295414 1 Collagen alpha 1(XV) chain precursor 2 1
+IPI00477770 Type XV collagen
+109 IPI00176193 1 Collagen, type XIV, alpha 1 2
+110 IPI00414467 0.96 Collectin placenta 1 2
+111 IPI00022392 0.92 Complement C1q subcomponent, A
+chain precursor
+1 7
+112 IPI00022394 1 Complement C1q subcomponent, C
+chain precursor
+4 4
+113 IPI00011094 1 Complement C1q tumor necrosis
+factor-related protein 4 precursor
+2
+114 IPI00024105 1 Complement C1q tumor necrosis
+factor-related protein 5 precursor
+3 3
+115 IPI00296165 1 Complement C1r subcomponent
+precursor
+13 13
+116 IPI00017696 1 Complement C1s subcomponent
+precursor
+18 14
+117 IPI00303963 1 Complement C2 precursor 8
+118 IPI00164623 1 Complement C3 precursor 136 80
+119 IPI00032258 1 Complement C4 precursor 65 65
+120 IPI00032291 1 Complement C5 precursor 17
+121 IPI00418391 1 Complement component 7 12
+122 IPI00009920 1 Complement component C6 precursor 9 1
+123 IPI00296608 1 Complement component C7 precursor 11 10
+124 IPI00011261 1 Complement component C8 gamma
+chain precursor
+2 2
+125 IPI00022395 1 Complement component C9 precursor 4 4
+126 IPI00011264 1 Complement factor H-related protein 1
+precursor
+6 4
+127 IPI00291867 1 Complement factor I precursor 12 12
+128 IPI00218746 1 Complement subcomponent C1q chain B 9 9
+IPI00477992 Complement component 1q
+subcomponent, beta polypeptide
+precursor
+129 IPI00024966 1 Contactin 2 precursor 27
+130 IPI00292791 1 Contactin 3 precursor 3
+131 IPI00004433 1 Contactin 6 precursor 5
+132 IPI00029343 1 Contactin associated protein-like
+2 precursor
+9
+133 IPI00008531 1 Corest protein 7
+134 IPI00027482 1 Corticosteroid-binding globulin
+precursor
+5 5
+135 IPI00432626 1 Csrv314 3 1
+IPI00395488 Vasorin
+136 IPI00032293 1 Cystatin C precursor 38 38
+137 IPI00465315 1 Cytochrome C 6
+138 IPI00382995 1 Cytoplasmic protein Ndr1 3
+IPI00479319 39-kDa protein
+IPI00008994 Splice isoform 1 of NDRG2 protein
+IPI00218109 Splice isoform 3 of NDRG2 protein
+IPI00218108 Splice isoform 2 of NDRG2 protein
+139 IPI00291005 1 Cytosolic malate dehydrogenase 8 8
+140 IPI00333140 1 Delta-notch-like EGF repeat-containing
+transmembrane
+3
+141 IPI00027547 1 Dermcidin precursor 2
+142 IPI00002714 1 Dickkopf related protein-3 precursor 19 8
+143 IPI00014439 1 Dihydropteridine reductase 4 3
+144 IPI00470535 1 Dihydropyridine receptor alpha 2 subunit 30 1
+145 IPI00007778 0.75 Di-N-acetylchitobiase precursor 1 2
+146 IPI00296141 1 Dipeptidyl-peptidase II precursor 4 2
+147 IPI00034319 0.97 Divalent cation tolerant protein CUTA 2 2
+148 IPI00012440 1 Dj20n2.5.1 2
+IPI00385460 Dj20n2.5.2
+149 IPI00066511 0.93 DNA polymerase theta 2
+IPI00418179 DNA polymerase theta
+150 IPI00419630 1 Dpkl1915 32 32
+151 IPI00456969 1 Dynein, cytoplasmic, heavy polypeptide 1 4
+IPI00477531 533-kDa protein
+152 IPI00028911 1 Dystroglycan precursor 10 10
+153 IPI00004065 0.98 Ecto-ADP-ribosyltransferase 4 precursor 2
+154 IPI00025447 1 Elongation factor 1-alpha 1 2
+IPI00472724 Elongation factor 1 alpha-like 3
+IPI00014424 Elongation factor 1-alpha 2
+155 IPI00303161 1 Endothelial cell adhesion molecule 2
+156 IPI00216171 1 Enolase 2 4
+157 IPI00216164 0.99 Enoyl-Coenzyme A, hydratase/
+3-hydroxyacyl Coenzyme A
+dehydrogenase
+2
+158 IPI00008318 1 Ephrin type-A receptor 4 precursor 6 5
+159 IPI00005123 1 Ephrin-A3 precursor 2
+160 IPI00301579 1 Epididymal secretory protein E1
+precursor
+4 2
+161 IPI00026530 0.95 ERGIC-53 protein precursor 2
+162 IPI00002732 1 Exostosin-like 2 9 9
+163 IPI00003351 1 Extracellular matrix protein 1 precursor 4 3
+164 IPI00015315 0.63 Extracellular matrix protein 2 precursor 1 3
+IPI00384977 Hypothetical protein dkfzp686O0186
+165 IPI00027827 1 Extracellular superoxide dismutase
+[Cu-Zn] precursor
+11 8
+166 IPI00219684 1 Fatty acid binding protein 3 2
+167 IPI00289766 1 Fc receptor homolog expressed in B cells 2
+168 IPI00328113 1 Fibrillin 1 precursor 4 4
+IPI00471957 Fibrillin 1
+169 IPI00019439 0.98 Fibrillin 2 precursor 3
+170 IPI00298497 1 Fibrinogen beta chain precursor 14 14
+171 IPI00414283 1 Fibronectin 1 isoform 4 preproprotein 12
+172 IPI00023824 1 Fibulin-2 precursor 4
+IPI00465038 Fibulin 2
+173 IPI00294615 1 Fibulin-5 precursor 4
+IPI00382428 Full-length cDNA clone CS0DI085YI08
+of placenta of Homo sapiens
+174 IPI00025755 0.99 Folate receptor beta precursor 2
+175 IPI00477747 1 Follistatin-like 4 4 3
+IPI00426062 Hypothetical protein dkfzP686E04229
+176 IPI00029723 0.99 Follistatin-related protein 1 precursor 2
+177 IPI00294650 1 Frizzled-related protein precursor 2
+178 IPI00023673 1 Galectin-3 binding protein precursor 15 15
+179 IPI00023728 1 Gamma-glutamyl hydrolase precursor 5 5
+180 IPI00018236 1 Ganglioside GM2 activator precursor 5 5
+IPI00418376 GM2 activator protein
+181 IPI00383814 1 GBP protein isoform a 11
+182 IPI00026314 1 Gelsolin precursor 37 33
+183 IPI00009890 0.97 Glia derived nexin precursor 1 2
+184 IPI00003919 0.97 Glutaminyl-peptide cyclotransferase
+precursor
+8 8
+185 IPI00219018 1 Glyceraldehyde-3-phosphate
+dehydrogenase
+7 7
+186 IPI00478493 1 Haptoglobin precursor 16 8
+187 IPI00477597 0.99 Haptoglobin-related protein precursor 4 4
+188 IPI00218816 1 Hemoglobin beta 3 1
+189 IPI00022488 1 Hemopexin precursor 19 13
+190 IPI00453473 1 HIST1H4F protein 3 2
+191 IPI00022371 1 Histidine-rich glycoprotein precursor 9 9
+192 IPI00216730 1 Histone H2A 4
+IPI00219037 H2AFX protein
+193 IPI00018524 1 Histone H2A.e 3
+IPI00303315 H2A histone family, member M
+IPI00216456 H2A histone family, member L
+IPI00102165 Hypothetical protein FLJ10903
+IPI00216457 H2A histone family, member O
+IPI00026272 Histone H2A.m
+IPI00031562 Histone H2A
+IPI00081836 DJ86C11.1
+IPI00339274 H2A histone family, member Q
+IPI00291764 H2A histone family, member C
+IPI00220855 H2A histone family, member J, isoform 2
+IPI00472334 H2A histone family, member E, Histone 1
+IPI00255316 H2ad
+194 IPI00152785 1 Histone H2B 2
+IPI00303133 H2B histone family, member J
+IPI00003935 H2B histone family, member A
+IPI00020101 PREDICTED: similar to Hist1h2bc
+protein
+IPI00455460 H2B histone family, member F
+IPI00220403 HIST1H2BM protein
+IPI00419833 H2B histone family, member E
+IPI00329665 H2B histone family, member C
+IPI00018534 H2B histone family, member S
+IPI00477495 H2B histone family, member T
+IPI00032234 H2B histone family, member D
+IPI00377199 H2B histone family, member B
+IPI00152906 Histone H2B
+195 IPI00431656 1 Hypothetical protein 6
+196 IPI00440577 1 Hypothetical protein 5 1
+197 IPI00472961 1 Hypothetical protein 4
+198 IPI00419425 1 Hypothetical protein 4 1
+199 IPI00163446 1 Hypothetical protein 4
+200 IPI00431531 1 Hypothetical protein 3 2
+201 IPI00472345 1 Hypothetical protein 3 3
+202 IPI00021263 1 Hypothetical protein 3
+203 IPI00384931 1 Hypothetical protein 2 1
+204 IPI00026195 1 Hypothetical protein 2
+205 IPI00430823 1 Hypothetical protein 2
+206 IPI00448950 1 Hypothetical protein 2
+207 IPI00465248 1 Hypothetical protein dkfzp686b0286 4 3
+208 IPI00423461 1 Hypothetical protein dkfzp686c02220 3
+209 IPI00426051 1 Hypothetical protein dkfzp686c15213 3 3
+210 IPI00426007 1 Hypothetical protein dkfzp686g11190 3 3
+211 IPI00413451 1 Hypothetical protein dkfzp686i04222 3 3
+212 IPI00470819 0.57 Hypothetical protein dkfzp686i20267 1 2
+IPI00024601 Carbonic anhydrase-related protein 10
+213 IPI00384938 1 Hypothetical protein dkfzp686n02209 2
+214 IPI00418157 1 Hypothetical protein dkfzp686o16217 2
+215 IPI00030385 1 Hypothetical protein FLJ13813 5 5
+IPI00305719 Selenium binding protein 1
+216 IPI00442230 0.96 Hypothetical protein FLJ16561 1 3
+IPI00024825 Megakaryocyte stimulating factor
+217 IPI00015834 0.95 Hypothetical protein FLJ20421 7 7
+218 IPI00005056 0.86 Hypothetical protein FLJ20958 2
+IPI00152975 C6orf79 protein
+219 IPI00442911 1 Hypothetical protein FLJ26266 2
+220 IPI00166339 1 Hypothetical protein FLJ33655 2
+221 IPI00394792 0.78 Hypothetical protein FLJ39837 2
+IPI00396522 Zinc finger protein 614
+222 IPI00384662 1 Hypothetical protein FLJ40332 2
+223 IPI00446503 1 Hypothetical protein FLJ41552 2
+224 IPI00445742 0.99 Hypothetical protein FLJ43465 2
+225 IPI00445227 1 Hypothetical protein FLJ44324 3
+226 IPI00443478 1 Hypothetical protein FLJ45472 7 7
+IPI00025363 Glial fibrillary acidic protein, astrocyte
+227 IPI00029046 1 Hypothetical protein KIAA0152 2
+228 IPI00168884 1 Hypothetical protein PSEC0072 3 3
+229 IPI00171410 1 Hypothetical protein PSEC0251d 2
+230 IPI00456036 0.95 Hypothetical protein XP_498490 2
+231 IPI00448792 1 Hypothetical protein 3
+IPI00002745 Cathepsin Z precursor
+232 IPI00015049 1 Hypothetical protein 4 3
+IPI00478417 Splice isoform 1 of repulsive guidance
+molecule A precursor
+233 IPI00382481 1 Ig heavy chain V-III region BUT 2
+234 IPI00382499 1 Ig heavy chain V-III region JON 2 1
+235 IPI00385555 1 Ig kappa chain V-I region BAN 2 1
+236 IPI00387025 1 Ig kappa chain V-I region DEE 6
+237 IPI00387027 1 Ig kappa chain V-I region Gal 2
+238 IPI00478600 1 Ig kappa chain V-I region HK102
+precursor
+5
+239 IPI00387095 1 Ig kappa chain V-I region Ka 2
+240 IPI00387097 1 Ig kappa chain V-I region Lay 2
+241 IPI00387105 1 Ig kappa chain V-I region Mev 3 2
+242 IPI00387106 1 Ig kappa chain V-I region Ni 4
+243 IPI00387110 1 Ig kappa chain V-II region MIL 2
+244 IPI00387113 1 Ig kappa chain V-III region B6 3
+245 IPI00384576 0.99 Ig kappa chain V-III region HIC
+precursor
+246 IPI00386131 1 Ig kappa chain V-III region IARC\BL41
+precursor
+3
+247 IPI00387119 1 Ig kappa chain V-III region POM 2
+248 IPI00419453 1 Ig kappa chain V-III region VG
+precursor
+4 3
+249 IPI00024138 1 Ig kappa chain V-III region VH
+precursor
+2
+250 IPI00026197 1 Ig kappa chain V-IV region precursor 6
+IPI00386132 Ig kappa chain V-IV region JI precursor
+IPI00386133 Ig kappa chain V-IV region B17
+precursor
+251 IPI00382426 0.99 Ig lambda chain V-II region TRO 2
+252 IPI00385985 1 Ig lambda chain V-III region LOI 2 2
+253 IPI00242956 1 Igg Fc binding protein 13 6
+254 IPI00382937 1 IGHM protein 2
+255 IPI00290411 1 Immunoglobulin-like domain protein
+MGC33530 precursor
+3 1
+256 IPI00001639 0.72 Importin beta-1 subunit 2
+257 IPI00297284 1 Insulin-like growth factor binding protein
+2 precursor
+9 9
+258 IPI00029235 1 Insulin-like growth factor binding protein
+6 precursor
+9 9
+259 IPI00016915 1 Insulin-like growth factor binding protein
+7 precursor
+12 12
+260 IPI00020996 0.8 Insulin-like growth factor binding
+protein complex acid labile chain
+precursor
+1 2
+261 IPI00328829 1 Inter-alpha trypsin inhibitor heavy chain
+precursor 5 isoform 1
+6 6
+IPI00451977 Inter-alpha trypsin inhibitor heavy chain
+precursor 5 isoform 2
+262 IPI00292530 1 Inter-alpha-trypsin inhibitor heavy chain
+H1 precursor
+9
+263 IPI00382767 1 Intercellular adhesion molecule 5 5
+IPI00290456 Intercellular adhesion molecule-5
+precursor
+264 IPI00026259 1 Swiss-prot:p20933|trembl:q6ld43;
+q9uck7;q9uck8|refseq_np:
+np_000018|ensembl:
+ensp00000264595
+3 2
+265 IPI00398435 1 PREDICTED: PLEXIN B2 16
+266 IPI00023648 1 ISLR precursor 3
+267 IPI00299083 1 Jam-it\ve-jam 2
+268 IPI00023845 1 Kallikrein 6 precursor 13 10
+269 IPI00005707 1 KIAA0709 protein 2 3
+270 IPI00465374 0.97 KIAA0736 protein 2
+271 IPI00180384 0.85 KIAA0944 protein 2
+272 IPI00465184 1 KIAA1258 protein 4 4
+273 IPI00008087 1 KIAA1263 protein 3
+274 IPI00412218 0.97 KIAA1409 protein 3
+IPI00395649 KIAA1409
+275 IPI00397768 0.95 KIAA1579 protein 2
+276 IPI00028492 0.92 KIAA1679 protein 2
+277 IPI00034201 0.99 KIAA1746 protein 2
+278 IPI00002236 0.87 Lactadherin precursor 1 2
+IPI00334005 MFGE8 protein
+279 IPI00217966 1 Lactate dehydrogenase A 2
+280 IPI00219217 1 Lactate dehydrogenase B 14 14
+281 IPI00013976 1 Laminin beta-1 chain precursor 9
+282 IPI00298281 1 Laminin gamma-1 chain precursor 8
+283 IPI00020665 1 Latent TGF-beta binding protein-4 15
+284 IPI00217055 0.97 Leprecan-like 1 protein 3
+285 IPI00022417 1 Leucine-rich alpha-2-glycoprotein
+precursor
+8 8
+286 IPI00013303 1 Limbic system-associated membrane
+protein precursor
+2 2
+287 IPI00186736 1 LIR-D1 4 2
+IPI00056478 Ewi2
+288 IPI00020557 1 Low-density lipoprotein receptor-related
+protein 1 precursor
+11
+289 IPI00020986 1 Lumican precursor 5 4
+290 IPI00289058 0.97 Ly-6\neurotoxin-like protein 1 precursor 2
+IPI00218851 Hypothetical protein
+291 IPI00014964 1 Lymphocyte antigen Ly-6H precursor 3
+292 IPI00293088 1 Lysosomal alpha-glucosidase precursor 2
+293 IPI00019038 0.88 Lysozyme C precursor 1 2
+294 IPI00011218 1 Macrophage colony stimulating factor I
+receptor precursor
+5 2
+295 IPI00259102 1 Mammalian ependymin related protein 1 2 1
+296 IPI00473066 1 Mannose receptor, C type 1-like 1
+Macrophage mannose Receptor
+5
+IPI00027848 precursor
+297 IPI00012989 0.95 Mannosidase, alpha, class 2B, member 1
+precursor
+2
+298 IPI00291641 0.97 Mannosyl-oligosaccharide 1,2-alphamannosidase IA
+1 3
+299 IPI00064607 1 MEGF10 protein 2
+300 IPI00003448 1 Melanoma derived growth regulatory
+protein precursor
+
+301 IPI00019157 1 Melanoma-associated chondroitin sulfate
+proteoglycan
+2
+302 IPI00032292 1 Metalloproteinase inhibitor 1 precursor 5 5
+303 IPI00027166 1 Metalloproteinase inhibitor 2 precursor 5 5
+304 IPI00061977 1 MGC27165 protein 2
+305 IPI00022792 1 Microfibril-associated glycoprotein 4
+precursor
+8
+306 IPI00385143 0.99 Microfibrillar protein 2 3 3
+307 IPI00025465 1 Mimecan precursor 11 11
+308 IPI00029260 1 Monocyte differentiation antigen CD14
+precursor
+12 9
+309 IPI00027310 1 Multiple EGF-like-domain protein 4 29
+310 IPI00024048 1 Muscle-cadherin precursor 3
+311 IPI00007893 0.97 Myosin-reactive immunoglobulin heavy
+chain variable region
+2
+312 IPI00007884 1 Myosin-reactive immunoglobulin light
+chain variable region
+3
+313 IPI00398220 0.98 Myosin-reactive immunoglobulin light
+chain variable region
+2
+314 IPI00009997 1 N-acetyllactosaminide beta-1,3-Nacetylglucosaminyltransferase
+16 16
+315 IPI00303335 0.92 Nebulin 2
+316 IPI00016422 1 Netrin receptor DCC precursor 10
+317 IPI00299059 1 Neural cell adhesion molecule 50 1
+318 IPI00435020 1 Neural cell adhesion molecule 1,140-kDa
+isoform precursor
+12 12
+IPI00185362 Neural cell adhesion molecule 1
+IPI00220737 Splice isoform 2 of neural cell adhesion
+molecule 1,120-kDa isoform precursor
+319 IPI00478109 1 Neural cell adhesion molecule 2 8 5
+IPI00376427 Neural cell adhesion molecule 2
+precursor
+320 IPI00290085 1 Neural-cadherin precursor 7 7
+321 IPI00442299 1 Neurexin 1-alpha precursor 27 3
+322 IPI00216728 1 Neurexin 3-alpha 5 3
+323 IPI00441515 1 Neurexin 3-alpha precursor 8
+324 IPI00159927 1 Neurocan core protein precursor 12
+325 IPI00176221 1 Neuronal growth regulator 1 7 7
+IPI00479497 39-kDa protein
+326 IPI00220562 1 Neuronal pentraxin I precursor 12 12
+327 IPI00026946 0.75 Neuronal pentraxin II precursor 1 5
+328 IPI00031289 1 Neuronal pentraxin receptor 13 13
+IPI00334238 Neuronal pentraxin receptor isoform 1
+329 IPI00016150 1 Neuroserpin precursor 13 13
+330 IPI00026944 1 Nidogen precursor 5 1
+IPI00384542 NID protein
+331 IPI00028908 1 Nidogen-2 precursor 6 4
+332 IPI00289083 1 Novel protein 4
+333 IPI00328703 0.98 NS5ATP13TP2 protein 3 3
+334 IPI00100715 0.63 Obscurin 2
+335 IPI00295832 0.96 Oligodendrocyte-myelin glycoprotein
+precursor
+1 2
+336 IPI00001662 1 Opioid binding protein\cell adhesion
+molecule precursor
+4
+337 IPI00020990 1 Osteomodulin precursor 2 1
+338 IPI00218725 1 Otthump00000040303 2
+IPI00479164 343-kDa protein
+IPI00479834 344-kDa protein
+339 IPI00298888 0.95 Otthump00000040847 2
+340 IPI00103552 0.99 Ovarian cancer related tumor marker
+CA125
+4
+341 IPI00218732 1 Paraoxonase 1 7 7
+342 IPI00163563 1 PBP family protein precursor 7 7
+343 IPI00155647 0.99 PDZ domain-containing protein AIPC 2
+344 IPI00024129 1 Peptidyl-prolyl cis-trans isomerase C 2
+345 IPI00000874 1 Peroxiredoxin 1 3
+346 IPI00027350 1 Peroxiredoxin 2 3 3
+IPI00375400 Peroxiredoxin 2 isoform b
+347 IPI00022331 1 Phosphatidylcholine-sterol
+acyltransferase precursor
+4
+348 IPI00299503 1 Phosphatidylinositol-glycan-specific
+phospholipase D 1 precursor
+2
+IPI00301884 Glycosylphosphatidylinositol
+phospholipase D
+IPI00385509 Phosphatidylinositol-glycan-specific
+phospholipase D 2 precursor
+349 IPI00169383 1 Phosphoglycerate kinase 1 3
+350 IPI00006114 1 Pigment epithelium-derived factor
+precursor
+28 27
+351 IPI00026199 1 Plasma glutathione peroxidase precursor 6 4
+352 IPI00291866 1 Plasma protease C1 inhibitor precursor 22 22
+353 IPI00007221 1 Plasma serine protease inhibitor
+precursor
+4
+354 IPI00019580 1 Plasminogen precursor 19 19
+355 IPI00000495 1 Pnas-125 2
+IPI00102069 Ga17 protein
+IPI00479489 23-kDa protein
+356 IPI00419262 1 PPIB protein 4
+357 IPI00335009 1 PREDICTED: hemicentin-2 3
+358 IPI00298902 0.97 PREDICTED: KIAA1107 protein 2
+359 IPI00001632 0.9 PREDICTED: KIAA1522 protein 2
+360 IPI00288940 0.87 PREDICTED: KIAA1639 protein 2
+361 IPI00300241 1 PREDICTED: leucine rich repeat
+containing 4B
+7 7
+362 IPI00397715 0.99 PREDICTED: NYD-SP11 protein 3
+363 IPI00376832 0.97 PREDICTED: similar to ba203i16.1
+(KIAA0970 protein)
+2
+364 IPI00454960 1 PREDICTED: similar to beta-1,3-Nacetylglucosaminyltransferase lunatic
+fringe (O-fucosylpeptide 3-beta-Nacetylglucosaminyltransferase)
+2 2
+IPI00472104 Splice isoform 3 of beta-1,3-Nacetylglucosaminyltransferase lunatic
+fringe
+IPI00455739 PREDICTED: lunatic fringe homolog
+365 IPI00454733 0.93 PREDICTED: similar to collagen alpha
+3(IX) chain precursor
+2
+366 IPI00240909 1 PREDICTED: similar to eukaryotic
+translation initiation factor 3, subunit 5
+epsilon, 47-kDa
+2 1
+367 IPI00255145 0.99 PREDICTED: similar to hypothetical
+protein dkfzp434p0316
+2
+368 IPI00397204 1 PREDICTED: similar to Ig kappa chain
+precursor V region (orphon V108)—
+human (fragment)
+2
+369 IPI00454724 1 PREDICTED: similar to Ig kappa chain
+V region (A2)—human
+2
+IPI00454725 PREDICTED: similar to Ig kappa chain
+V region (A2)—human
+370 IPI00400983 0.81 PREDICTED: similar to KCTD11
+protein
+2
+371 IPI00465123 0.82 PREDICTED: similar to myocyte
+nuclear factor
+2
+372 IPI00248321 0.97 PREDICTED: similar to peptidylprolyl
+isomerase A
+2
+373 IPI00457171 0.85 PREDICTED: similar to protein kinase
+related to Raf protein kinases
+2
+374 IPI00374519 0.87 PREDICTED: similar to RAB1B,
+member RAS oncogene family
+2
+375 IPI00455479 1 PREDICTED: similar to ribosomal
+protein S15
+2
+IPI00216153 Ribosomal protein S15
+376 IPI00176377 0.96 PREDICTED: similar to sorbitol
+dehydrogenase (L-iditol
+2-dehydrogenase)
+377 IPI00454963 0.95 PREDICTED: similar to ubiquitin
+carboxyl-terminal hydrolase 42
+(ubiquitin thiolesterase 42) (ubiquitinspecific processing protease 42)
+(deubiquitinating enzyme 42)
+2
+IPI00375124 PREDICTED: ubiquitin specific
+protease 42
+378 IPI00164755 1 Prepro-alpha2(I) collagen precursor 13
+379 IPI00382843 1 Prion protein 8 4
+IPI00022284 Major prion protein precursor
+380 IPI00001952 1 Probable endonuclease KIAA0830
+precursor
+7 7
+381 IPI00299738 1 Procollagen C-proteinase enhancer
+protein precursor
+17 17
+382 IPI00000828 1 Proenkephalin A precursor 2
+383 IPI00216691 1 Profilin 1 2
+384 IPI00002280 1 Prosaas precursor 10 3
+385 IPI00013179 1 Prostaglandin-H2 D-isomerase precursor 64 13
+386 IPI00219446 1 Prostatic binding protein 10 10
+387 IPI00021923 1 Protein FAM3C precursor 13 8
+IPI00334282 25-kDa protein
+388 IPI00419384 1 Protein kinase C substrate 80K-H
+isoform 1
+2
+IPI00026154 Glucosidase II beta subunit precursor
+389 IPI00015260 1 Protein kinase C-binding protein NELL2
+precursor
+18 3
+390 IPI00332887 1 Protein tyrosine phosphatase,
+non-receptor type substrate 1 precursor
+5 2
+391 IPI00375548 1 Protein tyrosine phosphatase, receptor
+type, D isoform 3 precursor
+4 1
+IPI00219860 Splice isoform 3 of receptor-type
+tyrosine-protein phosphatase delta
+precursor
+IPI00011642 Splice isoform 1 of receptor-type
+tyrosine-protein phosphatase delta
+precursor
+IPI00375547 Protein tyrosine phosphatase, receptor
+type, D isoform 2 precursor
+IPI00107819 Protein tyrosine phosphatase, receptor
+type, D isoform 4 precursor
+392 IPI00411680 1 Protein-L-isoaspartate (D-aspartate)
+O-methyltransferase
+4 4
+393 IPI00019568 1 Prothrombin precursor 16 6
+394 IPI00006967 1 Protocadherin 9 precursor 2
+IPI00409626 Protocadherin 9 isoform 1 precursor
+395 IPI00302641 1 Protocadherin fat 2 precursor 18
+396 IPI00413533 1 Putative nfkb activating protein 2 2
+IPI00103175 CANT1 protein
+397 IPI00220644 1 Pyruvate kinase 3 isoform 2 9 3
+398 IPI00465016 1 Quiescin Q6, isoform b 3 1
+IPI00003590 Quiescin
+399 IPI00465325 1 Qvsk201 3 3
+400 IPI00465186 1 Receptor-type tyrosine-protein
+phosphatase F precursor
+2
+IPI00480183 LAR splice variant 1
+IPI00107831 LAR
+401 IPI00011651 1 Receptor-type tyrosine-protein
+phosphatase gamma precursor
+2 1
+402 IPI00103510 0.99 Relaxin receptor 2 2
+403 IPI00289204 1 Reticulon 4 receptor precursor 2 2
+404 IPI00019176 1 Retinoic acid receptor responder protein
+2 precursor
+6
+405 IPI00480192 1 Retinol binding protein 4, plasma 9 9
+IPI00479848 Retinol binding protein 4, plasma
+IPI00022420 Plasma retinol-binding protein precursor
+406 IPI00014048 1 Ribonuclease pancreatic precursor 4 2
+407 IPI00005038 1 Ribonuclease UK114 2
+408 IPI00432405 1 Sarg904 8 8
+IPI00166766 Mgc45438 protein
+IPI00296168 Hypothetical protein flj90761
+409 IPI00306339 0.93 Secreted phosphoprotein 1 (osteopontin,
+bone Sialoprotein I, early
+T-lymphocyte activation 1)
+1 4
+IPI00021000 Splice isoform 1 of osteopontin precursor
+IPI00218874 Splice isoform 2 of osteopontin precursor
+IPI00218875 Splice isoform 3 of osteopontin precursor
+IPI00385896 Splice isoform 4 of osteopontin precursor
+410 IPI00006601 1 Secretogranin I precursor 11 6
+411 IPI00009362 1 Secretogranin II precursor 2
+412 IPI00292071 1 Secretogranin III precursor 13 13
+413 IPI00029061 1 Selenoprotein P precursor 2 2
+414 IPI00332846 0.97 Semaphorin 6D isoform 1 1 2
+IPI00178302 Semaphorin 6D isoform 4
+IPI00374169 Semaphorin 6D isoform 5 precursor
+IPI00170617 Semaphorin 6D short isoform
+IPI00170551 Semaphorin 6D isoform 2
+IPI00465042 KIAA1479 protein
+415 IPI00025257 1 Semaphorin 7A precursor 8 8
+416 IPI00396348 1 Serine (or cysteine) proteinase inhibitor,
+clade A (alpha-1 antiproteinase,
+antitrypsin), member 4
+5 3
+IPI00328609 Full-length cDNA 5-PRIME end of clone
+CS0DM009YC13 of Fetal liver of
+Homo sapiens
+417 IPI00022463 1 Serotransferrin precursor 111 50
+418 IPI00165421 1 SERPINC1 protein 12 12
+419 IPI00292950 1 SERPIND1 protein 8 8
+420 IPI00022434 1 Serum albumin precursor 245 82
+421 IPI00022391 1 Serum amyloid P-component precursor 4 2
+422 IPI00022482 0.84 Sialidase 2 3
+423 IPI00382750 0.97 Similar to protein kinase C substrate 6 6
+IPI00000137 C316G12.3
+424 IPI00470653 1 Single-chain Fv 4
+425 IPI00102543 0.97 SLIT and NTRK-like protein 1 precursor 2 2
+426 IPI00217146 1 SLIT and NTRK-like protein 4 precursor 3
+427 IPI00022608 1 Sortilin-related receptor precursor 6
+428 IPI00014572 1 SPARC precursor 11
+429 IPI00296777 1 SPARC-like protein 1 precursor 32 10
+IPI00384293 SPARC-like 1
+430 IPI00478292 0.99 Spectrin, alpha, non-erythrocytic 1 3
+IPI00413728 Spectrin alpha chain, brain
+431 IPI00003627 0.84 Splice isoform 1 of Actin-like protein 6A 2
+432 IPI00333383 1 Splice isoform 1 of adapter-related
+protein complex 2 beta 1 subunit
+5 1
+433 IPI00027703 1 Splice isoform 1 of alpha-mannosidase
+iix
+13
+434 IPI00006608 1 Splice isoform 1 of amyloid beta A4
+protein precursor
+20 12
+IPI00412924 Splice isoform 8 of amyloid beta A4
+protein precursor
+435 IPI00302146 0.99 Splice isoform 1 of ATP-binding cassette,
+sub-family F, member 1
+2
+IPI00013495 Splice isoform 2 of ATP-binding cassette,
+sub-family F, member 1
+436 IPI00451624 1 Splice isoform 1 of cartilage acidic
+protein 1 precursor
+7 5
+IPI00451625 Splice isoform 2 of cartilage acidic
+protein 1 precursor
+IPI00451626 Splice isoform 3 of cartilage acidic
+protein 1 precursor
+437 IPI00008860 1 Splice isoform 1 of complement C1q
+tumor necrosis factor-related protein 3
+precursor
+3
+IPI00425976 Splice isoform 2 of complement C1q
+tumor necrosis factor-related protein 3
+precursor
+438 IPI00019591 1 Splice isoform 1 of complement factor B
+precursor
+22 22
+439 IPI00029739 1 Splice isoform 1 of complement factor H
+precursor
+62 11
+440 IPI00029751 1 Splice isoform 1 of contactin 1 precursor 19
+441 IPI00012119 1 Splice isoform 1 of decorin precursor 2 2
+IPI00219403 Splice isoform 4 of decorin precursor
+442 IPI00296337 0.97 Splice isoform 1 of DNA-dependent
+protein kinase catalytic subunit
+3
+IPI00376215 Splice isoform 2 of DNA-dependent
+protein kinase catalytic subunit
+443 IPI00013682 1 Splice isoform 1 of ecto-ADPribosyltransferase 3 precursor
+4 3
+IPI00220292 Splice isoform 2 of ecto-ADPribosyltransferase 3 precursor
+IPI00220293 Splice isoform 3 of ecto-ADPribosyltransferase 3 precursor
+444 IPI00156171 1 Splice isoform 1 of ectonucleotide
+pyrophosphatase\phosphodiesterase 2
+46 32
+445 IPI00414984 1 Splice isoform 1 of epsilon-sarcoglycan
+precursor
+3 3
+IPI00418183 Hypothetical protein SGCE
+446 IPI00022418 1 Splice isoform 1 of fibronectin precursor 5
+IPI00339223 Splice isoform 3 of fibronectin precursor
+IPI00339228 Splice isoform 8 of fibronectin precursor
+IPI00339319 Splice isoform 11 of fibronectin precursor
+IPI00339227 Splice isoform 7 of fibronectin precursor
+IPI00339318 Splice isoform 10 of fibronectin precursor
+IPI00339225 Splice isoform 5 of fibronectin precursor
+IPI00479723 Fibronectin 1 isoform 6 preproprotein
+IPI00414283 Fibronectin 1 isoform 4 preproprotein
+IPI00414282 Fibronectin 1 isoform 2 preproprotein
+447 IPI00026104 0.97 Splice isoform 1 of iduronate 2-sulfatase
+precursor
+1 2
+448 IPI00001611 1 Splice isoform 1 of insulin-like growth
+factor II precursor
+3
+IPI00215977 Splice isoform 2 of insulin-like growth
+factor II precursor
+449 IPI00294193 1 Splice isoform 1 of inter-alpha-trypsin
+inhibitor heavy chain H4 precursor
+27 7
+450 IPI00297124 0.97 Splice isoform 1 of interleukin-6 receptor
+beta chain precursor
+1 3
+451 IPI00183445 1 Splice isoform 1 of latrophilin 1 precursor 3
+452 IPI00410310 1 Splice isoform 1 of latrophilin 3 precursor 2
+IPI00410312 Splice isoform 3 of latrophilin 3 precursor
+IPI00162547 Splice isoform 2 of latrophilin 3 precursor
+453 IPI00009030 0.94 Splice isoform 1 of lysosome-associated
+membrane glycoprotein 2 precursor
+1 2
+IPI00216172 Lysosomal-associated membrane protein
+2C
+IPI00427759 Splice isoform 2 of lysosome-associated
+membrane glycoprotein 2 precursor
+454 IPI00219661 1 Splice isoform 1 of myelin proteolipid
+protein
+3
+IPI00396968 Proteolipid protein 1
+455 IPI00411478 1 Splice isoform 1 of neural cell adhesion
+molecule 1 120-kDa isoform precursor
+9
+456 IPI00027087 1 Splice isoform 1 of neural cell adhesion
+molecule L1 precursor
+11
+IPI00334532 Splice isoform 2 of neural cell adhesion
+molecule L1 precursor
+457 IPI00007921 1 Splice isoform 1 of neurexin 2-alpha
+precursor
+19 7
+458 IPI00008944 1 Splice isoform 1 of neuroendocrine
+protein 7B2 precursor
+2
+459 IPI00022733 1 Splice isoform 1 of phospholipid transfer
+protein precursor
+18 18
+IPI00217778 Splice isoform 2 of phospholipid transfer
+protein precursor
+460 IPI00387168 1 Splice isoform 1 of proprotein convertase
+subtilisin\kexin type 9 precursor
+2
+461 IPI00000024 1 Splice isoform 1 of protocadherin 1
+precursor
+3
+IPI00215992 Splice isoform 2 of protocadherin 1
+precursor
+IPI00219455 Protocadherin 1, isoform 1
+IPI00176458 Protocadherin 1 isoform 2 precursor
+462 IPI00294776 1 Splice isoform 1 of reelin precursor 31 6
+IPI00241562 Splice isoform 2 of reelin precursor
+IPI00298066 Splice isoform 3 of reelin precursor
+463 IPI00456736 1 Splice isoform 1 of RGM domain family
+member B precursor
+464 IPI00022577 0.78 Splice isoform 1 of rhomboid-related
+protein 1
+2
+IPI00220135 Splice isoform 2 of rhomboid-related
+protein 1
+465 IPI00414896 1 Splice isoform 1 of ribonuclease T2
+precursor
+2
+IPI00299103 30-kDa protein
+466 IPI00219798 1 Splice isoform 1 of roundabout homolog
+1 precursor
+3
+IPI00418121 Splice isoform 2 of roundabout homolog
+1 precursor
+467 IPI00023019 0.79 Splice isoform 1 of sex hormone-binding
+globulin precursor
+1 3
+IPI00219583 Splice isoform 2 of sex hormone-binding
+globulin precursor
+468 IPI00025276 1 Splice isoform 1 of tenascin X precursor 15
+469 IPI00177869 1 Splice isoform 1of apolipoprotein L1
+precursor
+2 2
+IPI00186903 Splice isoform 2 of apolipoprotein L1
+precursor
+470 IPI00220977 0.97 Splice isoform 2 of amyloid-like protein 2
+precursor
+3 3
+IPI00031030 Splice isoform 1 of amyloid-like protein 2
+precursor
+471 IPI00456624 1 Splice isoform 2 of brevican core protein
+precursor
+4 4
+IPI00217423 Hyaluronan binding protein
+IPI00456623 Splice isoform 1 of brevican core protein
+precursor
+472 IPI00455383 0.89 Splice isoform 2 of clathrin heavy
+chain 1
+2
+IPI00024067 Clathrin heavy chain 1
+473 IPI00221384 1 Splice isoform 2 of collagen alpha 1(XII)
+chain precursor
+3
+IPI00329573 Splice isoform 1 of collagen alpha 1(XII)
+chain precursor
+474 IPI00220701 1 Splice isoform 2 of collagen alpha 3(VI)
+chain precursor
+9 3
+IPI00376964 Alpha 3 type VI collagen isoform 2
+precursor
+IPI00022200 Alpha 3 type VI collagen isoform 4
+precursor
+475 IPI00216641 1 Splice isoform 2 of contactin 1 precursor 56
+476 IPI00477233 1 Splice isoform 2 of cullin homolog 4B 2
+IPI00477156 Splice isoform 1 of cullin homolog 4B
+IPI00179057 103-kDa protein
+IPI00480142 105-kDa protein
+477 IPI00220813 1 Splice isoform 2 of EGF-containing
+fibulin-like extracellular matrix protein
+1 precursor
+13 5
+IPI00220814 Splice isoform 3 of EGF-containing
+fibulin-like extracellular matrix protein
+1 precursor
+IPI00029658 Splice isoform 1 of EGF-containing
+fibulin-like extracellular matrix protein
+1 precursor
+IPI00220815 Splice isoform 4 of EGF-containing
+fibulin-like extracellular matrix protein
+1 precursor
+478 IPI00029717 1 Splice isoform 2 of fibrinogen alpha
+\alpha-E chain precursor
+15 15
+IPI00021885 Splice isoform 1 of fibrinogen alpha
+\alpha-E chain precursor
+479 IPI00219713 1 Splice isoform 2 of fibrinogen gamma
+chain precursor
+15 12
+IPI00021891 Splice isoform 1 of fibrinogen gamma
+chain precursor
+480 IPI00414888 1 Splice isoform 2 of ICOS ligand
+precursor
+2
+IPI00219131 Splice isoform 1 of ICOS ligand
+precursor
+481 IPI00218137 1 Splice isoform 2 of kallikrein 11 precursor 2
+IPI00217503 Variant form hippostasin\KLK11
+IPI00002818 Splice isoform 1 of kallikrein 11 precursor
+482 IPI00215894 1 Splice isoform 2 of kininogen precursor 9 5
+483 IPI00394992 1 Splice isoform 2 of N-acetylmuramoyl-Lalanine amidase precursor
+5 5
+IPI00163207 Splice isoform 1 of N-acetylmuramoyl-Lalanine amidase precursor
+484 IPI00442297 1 Splice isoform 2 of neurotrimin precursor 5 4
+IPI00442294 Splice isoform 1 of neurotrimin precursor
+IPI00442298 Splice isoform 3 of neurotrimin precursor
+485 IPI00375255 0.98 Splice isoform 2 of pecanex-like protein 1 3
+486 IPI00219041 1 Splice isoform 2 of peptidyl-glycine
+alpha-amidating monooxygenase
+precursor
+IPI00219042 Splice isoform 3 of peptidyl-glycine
+alpha-amidating monooxygenase
+precursor
+IPI00177543 Splice isoform 4 of peptidyl-glycine
+alpha-amidating monooxygenase
+precursor
+487 IPI00334175 1 Splice isoform 2 of polypyrimidine
+tract-binding protein 1
+2
+IPI00183626 Polypyrimidine tract-binding protein 1,
+isoform a
+IPI00179964 Splice isoform 1 of polypyrimidine
+tract-binding protein 1
+488 IPI00291170 0.96 Splice isoform 2 of protein KIAA1199
+precursor
+2
+IPI00376689 Splice Isoform 1 of protein KIAA1199
+precursor
+489 IPI00216283 1 Splice isoform 2 of receptor-type
+tyrosine-protein phosphatase zeta
+precursor
+5 1
+IPI00472466 Tyrosine phosphatase zeta polypeptide 2
+HTPZP2
+IPI00291099 Splice isoform 1 of receptor-type
+tyrosine-protein phosphatase zeta
+precursor
+490 IPI00412910 1 Splice isoform 2 of VPS10 domaincontaining receptor sorcs1 precursor
+3
+IPI00103597 VPS10 domain receptor protein
+SORCS 1
+491 IPI00479016 1 Splice isoform 3 of contactin 4 precursor 8
+492 IPI00218803 1 Splice isoform 3 of fibulin-1 precursor 7 7
+IPI00296534 Splice isoform 1 of fibulin-1 precursor
+493 IPI00333778 1 Splice isoform 3 of neuronal cell adhesion
+molecule precursor
+48 10
+IPI00333777 Splice isoform 2 of neuronal cell adhesion
+molecule precursor
+IPI00333776 Splice isoform 1 of neuronal cell adhesion
+molecule precursor
+IPI00333781 Splice isoform 5 of neuronal cell adhesion
+molecule precursor
+494 IPI00219825 1 Splice isoform 3 of proactivator
+polypeptide precursor
+3 3
+IPI00219824 Splice isoform 2 of proactivator
+polypeptide precursor
+IPI00012503 Splice isoform 1 of proactivator
+polypeptide precursor
+495 IPI00218648 0.84 Splice isoform 3 of retinoblastomabinding protein 1
+2
+IPI00296069 Splice isoform 1 of retinoblastomabinding protein 1
+IPI00328418 Splice isoform 2 of retinoblastomabinding protein 1
+496 IPI00220333 1 Splice isoform 3 of seizure 6-like protein
+precursor
+8
+IPI00157417 Splice isoform 1 of seizure 6-like protein
+precursor
+497 IPI00296537 1 Splice isoform 4 of fibulin-1 precursor 5 5
+498 IPI00247295 0.92 Splice isoform 4 of nesprin 1 2
+IPI00386444 Splice isoform 1 of nesprin 1
+499 IPI00394655 1 Splice isoform 4 of neurofascin precursor 30 1
+IPI00470575 Neurofascin isoform 1
+IPI00477942 Neurofascin isoform 2
+500 IPI00415032 1 Splice isoform 4 of neuronal cell adhesion
+molecule precursor
+47
+501 IPI00218462 1 Splice isoform 5 of attractin precursor 12
+IPI00027235 Splice isoform 1 of attractin precursor
+IPI00162735 Splice isoform 2 of attractin precursor
+IPI00218461 Splice isoform 4 of attractin precursor
+502 IPI00171473 1 Spondin 1 precursor 3 3
+503 IPI00033466 1 Stem cell growth factor precursor 4
+504 IPI00022314 0.97 Superoxide dismutase [Mn],
+mitochondrial precursor
+3 3
+505 IPI00218733 1 Superoxide dismutase 1, soluble 2 2
+506 IPI00386630 1 TCN2 protein 8
+507 IPI00160552 1 Tenascin-R 4
+508 IPI00470495
+IPI00307536
+0.85 Testis expressed sequence 11, isoform 2
+Hypothetical protein FLJ32961
+2
+509 IPI00009028 1 Tetranectin precursor 10 10
+510 IPI00216298 1 Thioredoxin 2
+511 IPI00018769 1 Thrombospondin 2 precursor 2
+512 IPI00328550 1 Thrombospondin 4 precursor 2 1
+513 IPI00022892 1 Thy-1 membrane glycoprotein precursor 5 5
+514 IPI00292946 1 Thyroxine-binding globulin precursor 4 3
+515 IPI00179357 1 Titin 9 9
+IPI00386639 Elastic titin
+516 IPI00024102 1 Transaldolase 2
+517 IPI00219465 1 Transcobalamin II precursor 6
+518 IPI00018219 1 Transforming growth factor-beta induced
+protein IG-H3 precursor
+4 2
+519 IPI00022432 1 Transthyretin precursor 77 77
+520 IPI00465028 1 Triosephosphate isomerase 1 6
+521 IPI00465028 1 Triosephosphate isomerase 1 8 8
+522 IPI00176427 1 TSLC1-like 2 3 2
+523 IPI00166768 1 TUBA6 protein 4 4
+IPI00396304 Tubulin, alpha, ubiquitous
+IPI00218343 Tubulin alpha-6 chain
+IPI00387144 Tubulin alpha-ubiquitous chain
+IPI00180675 Tubulin alpha-3 chain
+524 IPI00477796 0.86 Type 1-like ryanodine receptor 2
+IPI00334799 Splice isoform 3 of ryanodine receptor 1
+IPI00220391 Splice isoform 1 of ryanodine receptor 1
+IPI00220558 Splice isoform 2 of ryanodine receptor 1
+525 IPI00018276 1 Type I transmembrane receptor
+precursor
+9
+526 IPI00437593 1 Type XVIII collagen long variant 6 6
+IPI00414694 Splice isoform 2 of collagen alpha 1
+(XVIII) chain precursor
+IPI00478853 150-kDa protein
+IPI00022822 Splice isoform 1 of collagen alpha 1
+(XVIII) chain precursor
+IPI00418138 Alpha 1 type XVIII collagen isoform 3
+precursor
+527 IPI00026320 0.91 Ubiquitin–protein ligase EDD 2
+528 IPI00020430 1 Vacuolar ATP synthase subunit S1
+precursor
+8 8
+529 IPI00009950 1 Vesicular integral-membrane protein
+VIP36 precursor
+12 12
+530 IPI00298853 1 Vitamin D-binding protein precursor 26 26
+531 IPI00021817 1 Vitamin K-dependent protein
+C precursor
+2
+532 IPI00294004 1 Vitamin K-dependent protein S precursor 3
+533 IPI00298971 1 Vitronectin precursor 9 6
+534 IPI00420062 0.94 VPS13B-1A protein 2
+IPI00420061 VPS13B-2A protein
+IPI00376439 Splice isoform 1 of cohen syndrome
+protein 1
+535 IPI00069058 1 WUGSC:H_DJ0747G18.3 protein 7 5
+536 IPI00010653 0.99 Xpmc2h 2
+537 IPI00027038 1 Z39Ig protein precursor 2
