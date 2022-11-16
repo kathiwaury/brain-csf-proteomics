@@ -21,7 +21,7 @@ from sklearn.preprocessing import StandardScaler
 
 # define continuous variables
 cont = ['Length', 'Molecular weight', 'A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 
-        'V', 'W', 'Y', 'Isoelectric point', 'Instability index', 'Solubility', 'Disorder_NSP', 'Helix_NSP', 'Turn_NSP', 
+        'V', 'W', 'Y', 'Isoelectric point', 'Instability index', 'Solubility', 'Disorder_NSP', 'Helix_NSP', 'Coil_NSP', 
         'Sheet_NSP', 'ExpAA', 'First60ExpAA', 'PredHel']
 
 def keep_first_uniprot(string):
@@ -39,6 +39,7 @@ def get_uniprot(string):
         _, uniprot, _ = string.split("|")
     except:
         _, uniprot, _ = string.split("_", maxsplit=2)  
+       
     return uniprot
 
 
@@ -92,40 +93,40 @@ def protein_analysis(df, seq_col):
     # instability index
     df["Instability index"] = PA.instability_index()
 
-    # hydrophobicity
-    df["Polar"] = df[["R", "K", "E", "D", "Q", "N"]].sum()
-    df["Neutral"] = df[["G", "A", "S", "T", "P", "H", "Y"]].sum()
-    df["Hydrophobic"] = df[["C", "L", "V", "I", "M", "F", "W"]].sum()
+#     # hydrophobicity
+#     df["Polar"] = df[["R", "K", "E", "D", "Q", "N"]].sum()
+#     df["Neutral"] = df[["G", "A", "S", "T", "P", "H", "Y"]].sum()
+#     df["Hydrophobic"] = df[["C", "L", "V", "I", "M", "F", "W"]].sum()
 
-    # normalized van der Waals volume
-    df["Volume_small"] = df[["G", "A", "S", "T", "P", "D"]].sum()
-    df["Volume_medium"] = df[["N", "V", "E", "Q", "I", "L"]].sum()
-    df["Volume_large"] = df[["M", "H", "K", "F", "R", "Y", "W"]].sum()
+#     # normalized van der Waals volume
+#     df["Volume_small"] = df[["G", "A", "S", "T", "P", "D"]].sum()
+#     df["Volume_medium"] = df[["N", "V", "E", "Q", "I", "L"]].sum()
+#     df["Volume_large"] = df[["M", "H", "K", "F", "R", "Y", "W"]].sum()
 
-    # polarity
-    df["Polarity_low"] = df[["L", "I", "F", "W", "C", "M", "V", "Y"]].sum()
-    df["Polarity_medium"] = df[["P", "A", "T", "G", "S"]].sum()
-    df["Polarity_large"] = df[["H", "Q", "R", "K", "N", "E", "D"]].sum()
+#     # polarity
+#     df["Polarity_low"] = df[["L", "I", "F", "W", "C", "M", "V", "Y"]].sum()
+#     df["Polarity_medium"] = df[["P", "A", "T", "G", "S"]].sum()
+#     df["Polarity_large"] = df[["H", "Q", "R", "K", "N", "E", "D"]].sum()
 
-    # polarizability
-    df["Polarizability_low"] = df[["G", "A", "S", "D", "T"]].sum()
-    df["Polarizability_medium"] = df[["C", "P", "N", "V", "E", "Q", "I", "L"]].sum()
-    df["Polarizability_large"] = df[["K", "M", "H", "F", "R", "Y", "W"]].sum()
+#     # polarizability
+#     df["Polarizability_low"] = df[["G", "A", "S", "D", "T"]].sum()
+#     df["Polarizability_medium"] = df[["C", "P", "N", "V", "E", "Q", "I", "L"]].sum()
+#     df["Polarizability_large"] = df[["K", "M", "H", "F", "R", "Y", "W"]].sum()
 
-    # charge
-    df["Charge_positive"] = df[["K", "R"]].sum()
-    df["Charge_neutral"] = df[["A", "N", "C", "Q", "G", "H", "I", "L", "M", "F", "P", "S", "T", "W", "Y", "V"]].sum()
-    df["Charge_negative"] = df[["D", "E"]].sum()
+#     # charge
+#     df["Charge_positive"] = df[["K", "R"]].sum()
+#     df["Charge_neutral"] = df[["A", "N", "C", "Q", "G", "H", "I", "L", "M", "F", "P", "S", "T", "W", "Y", "V"]].sum()
+#     df["Charge_negative"] = df[["D", "E"]].sum()
 
-    # solvent accessibility
-    df["Buried"] = df[["A", "L", "F", "C", "G", "I", "V",  "W"]].sum()
-    df["Exposed"] = df[["P", "K", "Q", "E", "N", "D"]].sum()
-    df["Intermediate"] = df[["M", "P", "S", "T", "H", "Y"]].sum()
+#     # solvent accessibility
+#     df["Buried"] = df[["A", "L", "F", "C", "G", "I", "V",  "W"]].sum()
+#     df["Exposed"] = df[["P", "K", "Q", "E", "N", "D"]].sum()
+#     df["Intermediate"] = df[["M", "P", "S", "T", "H", "Y"]].sum()
 
-    # # secondary structure
-    # df["Helix"] = df[["E", "A", "L", "M", "Q", "K", "R", "H"]].sum()
-    # df["Strand"] = df[["V", "I", "Y", "C", "W", "F", "T"]].sum()
-    # df["Coil"] = df[["G", "N", "P", "S", "D"]].sum()
+#     # secondary structure
+#     df["Helix"] = df[["E", "A", "L", "M", "Q", "K", "R", "H"]].sum()
+#     df["Strand"] = df[["V", "I", "Y", "C", "W", "F", "T"]].sum()
+#     df["Coil"] = df[["G", "N", "P", "S", "D"]].sum()
 
     return df
 
@@ -259,3 +260,15 @@ def preprocess(X, y, random_state=0):
     X_train_bal, y_train_bal = RandomUnderSampler(random_state=0).fit_resample(X_train_scal, y_train)
     
     return X_train_bal, X_test_scal, y_train_bal, y_test, scaler
+
+
+def read_uniprot_list(file):
+    file = open(data_path + "Features/" + file, "r")
+    lines = file.readlines()
+    uniprots = []
+    
+    for line in lines:
+        line_strip = line.strip()
+        uniprots.append(line_strip)
+        
+    return uniprots  
