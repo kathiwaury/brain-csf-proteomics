@@ -106,14 +106,13 @@ def increase_stringency_CSF(df_features, csf_df, i):
     return df_stringent
 
 
-def keep_first_uniprot(string):
-    if "," in string:
-        uniprots = string.split(",")
-        uniprot1 = uniprots[0]
+def keep_first_uniprot(string, delim=","):
+    if delim in string:
+        uniprot, _ = string.split(delim, maxsplit=1)
     else:
-        uniprot1 = string
+        uniprot = string
     
-    return uniprot1
+    return uniprot
 
 
 def preprocess(X, y, random_state=0):
