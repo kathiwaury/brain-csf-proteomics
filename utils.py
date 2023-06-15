@@ -14,13 +14,39 @@ import seaborn as sns
 from Bio.SeqUtils.ProtParam import ProteinAnalysis
 from imblearn.under_sampling import RandomUnderSampler
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler
 
 
-# define continuous variables
-cont = ['Length', 'Molecular weight', 'A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 
-        'V', 'W', 'Y', 'Isoelectric point', 'Instability index', 'Solubility', 'Disorder_NSP', 'Helix_NSP', 'Coil_NSP', 
-        'Sheet_NSP', 'ExpAA', 'First60ExpAA', 'PredHel']
+# define gloval variables
+
+cont_variables = ["Length", "Molecular weight", "A", "C", "D", "E", "F", "G", "H", "I", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V",
+                  "W", "Y", "Isoelectric point", "Instability index", "Disorder_NSP", "Helix_NSP", "Coil_NSP", "Sheet_NSP", "PredHel"]
+
+col_dict = {"Disorder_NSP":"Disorder", 
+            "Helix_NSP":"Helix", 
+            "Coil_NSP":"Coil",
+            "Sheet_NSP":"Sheet",
+            "ExpAA":"TM residues", 
+            "First60ExpAA":"First 60 TM residues", 
+            "PredHel":"TM region",
+            "PredHel_binary":"TM region (binary)",
+            "Cell_membrane":"Cell membrane", 
+            "Endoplasmic_reticulum":"Endoplasmic reticulum", 
+            "Mitochondrion":"Mitochondrion",
+            "Golgi_apparatus":"Golgi apparatus",                          
+            "NetNGlyc":"NetNGlyc",
+            "GlycoMine_N":"N-linked Glycosylation (GlycoMine)", 
+            "GlycoMine_O":"O-linked Glycosylation (GlycoMine)", 
+            "GlycoMine_C":"C-linked Glycosylation (GlycoMine)",
+            "PS00022":"EGF1",
+            "PS01186":"EGF2",
+            "PS00232":"Cadherin-1",
+            "PS00237":"G-protein receptor F1",
+            "PS00027":"Homeobox",
+            "PS00028":"Zinc Finger C2H2",
+            "DNA_binding": "DNA binding",
+            "RNA_binding": "RNA binding",
+            "Ectodomain_shedding":"Ectodomain shedding protein"}
 
 
 def derive_global_features(df_features, df_nsp):
@@ -70,11 +96,12 @@ def get_brain_expression(string):
     return exp
 
 
-def get_uniprot(string):
+def get_uniprot(string, delim="|"):
+
     try:
-        _, uniprot, _ = string.split("|")
-    except:
-        _, uniprot, _ = string.split("_", maxsplit=2)  
+        _, uniprot, _ = string.split(sep=delim, maxsplit=2)
+    except ValueError:
+        _, uniprot = string.split(sep=delim)  
        
     return uniprot
 
@@ -87,7 +114,7 @@ def get_value(string):
 def increase_stringency_brain(feature_df, brain_set):
 
     df_stringent = feature_df[feature_df["Uniprot"].isin(brain_set)]
-    print("Number of brain proteins to be removed:", len(df_features) - len(df_stringent))
+    # print("Number of brain proteins to be removed:", len(df_features) - len(df_stringent))
     print("Number of CSF proteins left:", len(df_stringent[(df_stringent["CSF"] == 1)]))   
     print("Number of non-CSF proteins left:", len(df_stringent[(df_stringent["CSF"] == -1)])) 
     
@@ -117,9 +144,8 @@ def keep_first_uniprot(string, delim=","):
 
 def preprocess(X, y, random_state=0):
     
-    # preprocessing 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y, random_state=random_state)  
-    X_train_scal, X_test_scal, scaler = scale_data(X_train, X_test, scaler=StandardScaler(), scaled=cont)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=random_state)  
+    X_train_scal, X_test_scal, scaler = scale_data(X_train, X_test, scaler=RobustScaler(), cont=cont_variables)
     X_train_bal, y_train_bal = RandomUnderSampler(random_state=0).fit_resample(X_train_scal, y_train)
     
     return X_train_bal, X_test_scal, y_train_bal, y_test, scaler
@@ -155,21 +181,29 @@ def protein_analysis(df, seq_col):
     return df
 
 
-def scale_data(X_train, X_test, scaler=StandardScaler(), scaled=cont):
+def remove_isoform_label(uniprot):
+        
+    if "-" in uniprot:
+        uniprot, _ = uniprot.split("-")
+    
+    return uniprot
+
+
+def scale_data(X_train, X_test, scaler=RobustScaler(), cont="all"):
     """
-    Default is Standard Scaler (standardization) on all variables.
+    Default is Robust Scaler on all variables.
     """
     
-    if scaled == "all":
+    if cont == "all":
         # scale all variables
         X_train_scal = scaler.fit_transform(X_train)
         X_test_scal = scaler.transform(X_test)
 
     else:
-        # scale continuous variables
+        # scale subset of variables (i.e. continuous variables only)
         X_train_scal = X_train.copy()
-        X_train_scal[scaled] = scaler.fit_transform(X_train_scal[scaled])
+        X_train_scal[cont] = scaler.fit_transform(X_train_scal[cont])
         X_test_scal = X_test.copy()
-        X_test_scal[scaled] = scaler.transform(X_test_scal[scaled])
+        X_test_scal[cont] = scaler.transform(X_test_scal[cont])
 
     return X_train_scal, X_test_scal, scaler
