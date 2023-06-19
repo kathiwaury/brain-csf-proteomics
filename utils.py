@@ -17,7 +17,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler
 
 
-# define gloval variables
+# define global variables
 
 cont_variables = ["Length", "Molecular weight", "A", "C", "D", "E", "F", "G", "H", "I", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V",
                   "W", "Y", "Isoelectric point", "Instability index", "Disorder_NSP", "Helix_NSP", "Coil_NSP", "Sheet_NSP", "PredHel"]
@@ -51,12 +51,11 @@ col_dict = {"Disorder_NSP":"Disorder",
 
 def derive_global_features(df_features, df_nsp):
     """
-    Takes feature dataframe and NSP dataframe.
-    Calculates global features from NSP residue-based features for the relevant protein and adds the values to 
-    the feature dataframe in new columns.
-    Outputs the updated feature dataframe with additional columns.
+    Takes feature dataframe and NetSurfP-2.0 results dataframe as input.
+    Calculates protein-level features from NetSurfP-2.0 residue-based features for the relevant protein and adds the values to 
+    the feature dataframe with additional columns for disorder, coil, helix and sheet content.
+    Outputs the updated feature dataframe.
     """     
-    
     # subset NSP dataframe
     uniprot = df_features["Uniprot"]
     df_nsp_protein = df_nsp[df_nsp["id"] == uniprot]
@@ -79,6 +78,10 @@ def derive_global_features(df_features, df_nsp):
 
 
 def get_brain_expression(string):
+    """
+    Takes expression information provided by the Human Protein Atlas.
+    Filter for information on brain expression leves; extracts and returns expression value as string.
+    """         
     # check if expression for multiple tissues is provided
     if ";" in string:
         tissues = string.split(";")
@@ -97,7 +100,9 @@ def get_brain_expression(string):
 
 
 def get_uniprot(string, delim="|"):
-
+    """
+    Takes string that contaisn Uniprot ID as input. Splits string to extract and return Uniprot ID as string.
+    """ 
     try:
         _, uniprot, _ = string.split(sep=delim, maxsplit=2)
     except ValueError:
@@ -107,22 +112,19 @@ def get_uniprot(string, delim="|"):
 
 
 def get_value(string):
+    """
+    Extracts results value from TMHMM results file and returns it as a float.
+    """ 
     _, value = string.split("=")
     return float(value)
 
 
-def increase_stringency_brain(feature_df, brain_set):
-
-    df_stringent = feature_df[feature_df["Uniprot"].isin(brain_set)]
-    # print("Number of brain proteins to be removed:", len(df_features) - len(df_stringent))
-    print("Number of CSF proteins left:", len(df_stringent[(df_stringent["CSF"] == 1)]))   
-    print("Number of non-CSF proteins left:", len(df_stringent[(df_stringent["CSF"] == -1)])) 
-    
-    return df_stringent
-
-
 def increase_stringency_CSF(df_features, csf_df, i):
-    
+    """
+    Takes feature dataframe, CSF study dataframe and integer detemrining the minimum number of studies as input.
+    Filters feature dataframe for CSF proteins that are found in minimum number of studies. Prints number of CSF proteins to be removed and 
+    to be contained. Returns updated feature dataframe. 
+    """     
     stringent_csf = csf_df[csf_df["#Studies"]>=i]["Uniprot"]
     remove_csf = set(df_features[df_features["CSF"] == 1]["Uniprot"]) - set(stringent_csf)
     df_stringent = df_features.drop(df_features[(df_features["CSF"] == 1) & (df_features["Uniprot"].isin(remove_csf))].index)
@@ -134,6 +136,9 @@ def increase_stringency_CSF(df_features, csf_df, i):
 
 
 def keep_first_uniprot(string, delim=","):
+    """
+    Takes string with several Uniprot IDs as input. Splits string; retains and returns first Uniprot ID as a string.
+    """ 
     if delim in string:
         uniprot, _ = string.split(delim, maxsplit=1)
     else:
@@ -143,7 +148,12 @@ def keep_first_uniprot(string, delim=","):
 
 
 def preprocess(X, y, random_state=0):
-    
+    """
+    Takes variables and target as input.
+    Peforms standard preprocessing including 80/20 train-test split of data. Scales continuous variables using Robust scaler and     
+    undersamples majority class to gain balanced classes in training data.
+    Returns variabes and targets of train and test sets and the fitted scaler.
+    """     
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=random_state)  
     X_train_scal, X_test_scal, scaler = scale_data(X_train, X_test, scaler=RobustScaler(), cont=cont_variables)
     X_train_bal, y_train_bal = RandomUnderSampler(random_state=0).fit_resample(X_train_scal, y_train)
@@ -152,7 +162,9 @@ def preprocess(X, y, random_state=0):
 
 
 def print_p_val(p_val):
-    
+    """
+    Prints P-values in comprehensible manner.
+    """     
     if p_val < 0.0001:
         return "< 0.0001"
     else:
@@ -160,7 +172,12 @@ def print_p_val(p_val):
 
 
 def protein_analysis(df, seq_col):
-
+    """
+    Takes feature dataframe and name of sequence column as input.
+    Performs analysis of protein seqeuence using the BioPython SeqUtils module. Adds columns for molecular weights, amino acid proportions, 
+    iso electric point and instability index.
+    Returns updated dataframe.
+    """ 
     PA = ProteinAnalysis(df[seq_col])
 
     # molecular weight
@@ -182,28 +199,24 @@ def protein_analysis(df, seq_col):
 
 
 def remove_isoform_label(uniprot):
-        
+    """
+    Takes Uniprot string as input.
+    Removes isoform labels and returns Uniprot ID as string.
+    """         
     if "-" in uniprot:
         uniprot, _ = uniprot.split("-")
     
     return uniprot
 
 
-def scale_data(X_train, X_test, scaler=RobustScaler(), cont="all"):
+def scale_data(X_train, X_test, cont, scaler=RobustScaler()):
     """
-    Default is Robust Scaler on all variables.
+    Takes variables of train and test sets, scaler type and list of continuous variables as input.
+    Performs scaling on all continuous variables and returns scales train and test variables and fitted scaler.
     """
-    
-    if cont == "all":
-        # scale all variables
-        X_train_scal = scaler.fit_transform(X_train)
-        X_test_scal = scaler.transform(X_test)
-
-    else:
-        # scale subset of variables (i.e. continuous variables only)
-        X_train_scal = X_train.copy()
-        X_train_scal[cont] = scaler.fit_transform(X_train_scal[cont])
-        X_test_scal = X_test.copy()
-        X_test_scal[cont] = scaler.transform(X_test_scal[cont])
+    X_train_scal = X_train.copy()
+    X_train_scal[cont] = scaler.fit_transform(X_train_scal[cont])
+    X_test_scal = X_test.copy()
+    X_test_scal[cont] = scaler.transform(X_test_scal[cont])
 
     return X_train_scal, X_test_scal, scaler
