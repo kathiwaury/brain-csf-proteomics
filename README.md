@@ -3,7 +3,7 @@
 
 We have collected discovery proteomics studies based on untargeted mass spectrometry of healthy cerebrospinal fluid (CSF). The curated CSF proteome was used to annotate the 
 [Human Protein Atlas](https://www.proteinatlas.org/humanproteome/brain/human+brain) brain elevated proteins regarding CSF presence. Based on CSF and non-CSF brain proteins two logistic classifier 
-models were trained: the full CSF model and teh high confidence CSF model. These models were aplied to the Human Protein Atlas brain elevated proteome and a set of novel CSF proteins identified by 
+models were trained: the full CSF model and the high confidence CSF model. These models were aplied to the Human Protein Atlas brain elevated proteome and a set of novel CSF proteins identified by 
 proximity extension assays instead of mass spectormetry. The predicted proability for protein secretion to CSF for the human proteome is provided to support biomarker research.
 
 ![](https://github.com/kathiwaury/brain-csf-proteomics/blob/main/Workflow_overview.png)
