@@ -14,7 +14,7 @@ The trained models can be found [here](https://github.com/kathiwaury/brain-csf-p
 The prediction scores for the human proteome can be downloaded [here](https://github.com/kathiwaury/brain-csf-proteomics/blob/main/Datasets/Biomarker_discovery/Probability_scores_human_proteome.xlsx).
 
 # Citation
-If you use the the analysis or prediction scores, please cite the following publication:
+If you use the analysis or prediction scores, please cite the following publication:
 
 Deciphering Protein Secretion from the Brain to Cerebrospinal Fluid for Biomarker Discovery (2023) Katharina Waury, Renske de Wit, Inge M. W. Verberk, Charlotte E. Teunissen, and Sanne Abeln
 Journal of Proteome Research. 22(9), 3068-3080. DOI: [10.1021/acs.jproteome.3c00366](https://doi.org/10.1021/acs.jproteome.3c00366)
