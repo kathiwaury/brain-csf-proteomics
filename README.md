@@ -8,7 +8,7 @@ proximity extension assays instead of mass spectrometry. The predicted proabilit
 
 ![](https://github.com/kathiwaury/brain-csf-proteomics/blob/main/Workflow_overview.png)
 
-This repository contains all data and code to train the CSF-specific protein secretion predictor and to reproduce the figures of the manuscript. The manuscript is currently under review.
+This repository contains all data and code to train the CSF-specific protein secretion predictor and to reproduce the figures of the manuscript. 
 
 The trained models can be found [here](https://github.com/kathiwaury/brain-csf-proteomics/tree/main/Models).
 The prediction scores for the human proteome can be downloaded [here](https://github.com/kathiwaury/brain-csf-proteomics/blob/main/Datasets/Biomarker_discovery/Probability_scores_human_proteome.xlsx).
